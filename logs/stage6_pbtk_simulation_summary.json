@@ -1,0 +1,32 @@
+{
+  "stage": "stage6_run_pbtk_ode_simulation",
+  "completed_at": "2026-05-23T20:11:18.711800",
+  "input_interaction_descriptors": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/interaction_descriptors.csv",
+  "output_time_series": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/pbtk_time_series.csv",
+  "output_final_endpoints": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/pbtk_final_endpoints.csv",
+  "top_burden_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage6_top100_lymphatic_burden.csv",
+  "summary_by_host_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage6_summary_by_host_status.csv",
+  "summary_by_particle_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage6_summary_by_particle_group.csv",
+  "n_scenarios": 48600,
+  "max_duration_days": 365,
+  "snapshot_days": [
+    0,
+    7,
+    14,
+    30,
+    60,
+    90,
+    180,
+    365
+  ],
+  "n_time_series_snapshot_rows": 303750,
+  "n_endpoint_rows": 48600,
+  "mean_lymphatic_burden_index": 0.30407807043364654,
+  "max_lymphatic_burden_index": 1.0,
+  "notes": [
+    "Stage 6 uses vectorised daily Euler integration.",
+    "The saved pbtk_time_series.csv contains selected time-point snapshots, not every daily point.",
+    "The saved pbtk_final_endpoints.csv contains final endpoints for all scenarios.",
+    "All outputs are normalized scenario-based simulations, not clinical measurements."
+  ]
+}

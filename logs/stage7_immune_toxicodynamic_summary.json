@@ -1,0 +1,30 @@
+{
+  "stage": "stage7_immune_toxicodynamic_scoring",
+  "completed_at": "2026-05-23T20:14:25.263460",
+  "input_pbtk_final_endpoints": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/pbtk_final_endpoints.csv",
+  "output_immune_scores": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/immune_toxicodynamic_scores.csv",
+  "output_final_ranking": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/final_lymphatic_risk_ranking.csv",
+  "top100_risk_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage7_top100_final_immune_risk.csv",
+  "summary_by_host_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage7_summary_by_host_status.csv",
+  "summary_by_particle_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage7_summary_by_particle_group.csv",
+  "risk_class_summary_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage7_risk_class_summary.csv",
+  "mechanistic_driver_summary_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage7_mechanistic_driver_summary.csv",
+  "n_scenarios": 48600,
+  "mean_final_risk": 0.46049991625439984,
+  "max_final_risk": 0.874641652884942,
+  "min_final_risk": 0.211451928929432,
+  "score_columns": [
+    "macrophage_activation_score",
+    "ROS_score",
+    "cytokine_activation_score",
+    "systemic_inflammatory_spillover_score",
+    "immune_dysregulation_score",
+    "lymphatic_microplastic_immune_risk_index"
+  ],
+  "notes": [
+    "Stage 7 translates PBTK burden outputs into immune toxicodynamic scores.",
+    "The final risk index is scenario-based and normalized.",
+    "The final risk index is not a clinical diagnostic endpoint.",
+    "Stage 8 should perform statistical analysis, sensitivity analysis, and visualization."
+  ]
+}

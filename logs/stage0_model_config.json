@@ -1,0 +1,237 @@
+{
+  "created_at": "2026-05-23T19:41:18.836512",
+  "project_root": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin",
+  "random_seed": 20260524,
+  "model_identity": {
+    "project_name": "Lymphatic_Microplastic_Digital_Twin",
+    "model_title": "Gut–Lymphatic Microplastic Digital Twin",
+    "short_title": "Lymphatic Microplastic Digital Twin",
+    "main_focus": "Oral microplastic translocation through the gut–lymphatic immune axis",
+    "model_type": "Scenario-based computational toxicology model",
+    "main_endpoint": "Lymphatic Microplastic Immune Risk Index",
+    "study_positioning": "Hypothesis-generating digital twin simulation, not a clinical diagnostic model",
+    "target_axis": "Gut lumen → mucus layer → M-cell/Peyer's patch → lymphatic vessel → mesenteric lymph node → macrophage/cytokine response"
+  },
+  "compartments": [
+    {
+      "code": "C1",
+      "name": "Gut lumen",
+      "state_variable": "A_gut",
+      "role": "Initial compartment receiving oral microplastic exposure"
+    },
+    {
+      "code": "C2",
+      "name": "Mucus layer",
+      "state_variable": "A_mucus",
+      "role": "Particle trapping and prolonged mucosal contact"
+    },
+    {
+      "code": "C3",
+      "name": "M-cell/Peyer's patch interface",
+      "state_variable": "A_PP",
+      "role": "Translocation interface from lumen-associated particles to gut-associated lymphoid tissue"
+    },
+    {
+      "code": "C4",
+      "name": "Lymphatic vessel",
+      "state_variable": "A_lymph",
+      "role": "Transport route from Peyer's patch region to mesenteric lymph node"
+    },
+    {
+      "code": "C5",
+      "name": "Mesenteric lymph node",
+      "state_variable": "A_MLN",
+      "role": "Main retention and immune activation compartment"
+    },
+    {
+      "code": "C6",
+      "name": "Macrophage/dendritic-cell compartment",
+      "state_variable": "A_macrophage",
+      "role": "Immune-cell uptake and activation compartment"
+    },
+    {
+      "code": "C7",
+      "name": "Systemic spillover",
+      "state_variable": "A_systemic",
+      "role": "Fraction entering systemic circulation via thoracic duct-like outflow"
+    }
+  ],
+  "particle_axes": {
+    "polymer_types": [
+      "PET",
+      "PE",
+      "PP",
+      "PS",
+      "PVC"
+    ],
+    "size_um": [
+      0.05,
+      0.1,
+      1.0,
+      5.0,
+      10.0
+    ],
+    "shapes": [
+      "sphere",
+      "fragment",
+      "fiber"
+    ],
+    "aging_states": [
+      "pristine",
+      "UV-aged",
+      "oxidized"
+    ],
+    "surface_charges": [
+      "neutral",
+      "negative",
+      "positive"
+    ]
+  },
+  "scoring_lookup": {
+    "charge_score": {
+      "neutral": 0.3,
+      "negative": 0.6,
+      "positive": 0.8
+    },
+    "shape_factor": {
+      "sphere": 1.0,
+      "fragment": 1.25,
+      "fiber": 1.6
+    },
+    "shape_retention": {
+      "sphere": 0.3,
+      "fragment": 0.6,
+      "fiber": 0.85
+    },
+    "aging_oxidation_base": {
+      "pristine": 0.2,
+      "UV-aged": 0.6,
+      "oxidized": 0.8
+    },
+    "aging_roughness_base": {
+      "pristine": 0.25,
+      "UV-aged": 0.55,
+      "oxidized": 0.7
+    }
+  },
+  "exposure_axes": {
+    "routes": [
+      "oral"
+    ],
+    "dose_levels": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "duration_days": [
+      30,
+      90,
+      180,
+      365
+    ],
+    "diet_states": [
+      "normal",
+      "high-fat"
+    ],
+    "gut_status": [
+      "normal",
+      "inflamed",
+      "barrier-impaired"
+    ]
+  },
+  "dose_level_map": {
+    "low": 1.0,
+    "medium": 5.0,
+    "high": 10.0
+  },
+  "lymphatic_status_presets": {
+    "normal": {
+      "mucus_thickness_factor": 1.0,
+      "epithelial_barrier_integrity": 1.0,
+      "m_cell_uptake_factor": 0.5,
+      "peyer_patch_uptake_factor": 0.45,
+      "lymph_flow_factor": 1.0,
+      "macrophage_sensitivity": 0.4,
+      "cytokine_sensitivity": 0.35,
+      "clearance_factor": 1.0
+    },
+    "inflamed": {
+      "mucus_thickness_factor": 1.2,
+      "epithelial_barrier_integrity": 0.7,
+      "m_cell_uptake_factor": 0.75,
+      "peyer_patch_uptake_factor": 0.7,
+      "lymph_flow_factor": 1.2,
+      "macrophage_sensitivity": 0.7,
+      "cytokine_sensitivity": 0.75,
+      "clearance_factor": 0.7
+    },
+    "barrier-impaired": {
+      "mucus_thickness_factor": 0.8,
+      "epithelial_barrier_integrity": 0.5,
+      "m_cell_uptake_factor": 0.85,
+      "peyer_patch_uptake_factor": 0.8,
+      "lymph_flow_factor": 1.1,
+      "macrophage_sensitivity": 0.8,
+      "cytokine_sensitivity": 0.85,
+      "clearance_factor": 0.6
+    }
+  },
+  "diet_modifiers": {
+    "normal": {
+      "lymph_flow_multiplier": 1.0,
+      "hydrophobic_transport_multiplier": 1.0
+    },
+    "high-fat": {
+      "lymph_flow_multiplier": 1.2,
+      "hydrophobic_transport_multiplier": 1.15
+    }
+  },
+  "formula_definitions": {
+    "surface_score": "0.25*oxidation_score + 0.20*corona_score + 0.20*hydrophobicity_score + 0.15*roughness_score + 0.10*charge_score + 0.10*leachate_score",
+    "effective_size": "size_um * shape_factor * corona_factor",
+    "corona_factor": "1 + 0.5*corona_score",
+    "mucus_retention": "0.25*size_retention + 0.25*hydrophobicity_score + 0.20*surface_score + 0.15*shape_retention + 0.15*mucus_thickness_factor",
+    "p_mcell": "sigmoid(1.20*small_size_score + 0.80*surface_score + 0.70*corona_score + 0.60*m_cell_uptake_factor + 0.50*peyer_patch_uptake_factor - 0.80*effective_size_norm)",
+    "gut_to_lymph_translocation": "0.30*p_mcell + 0.20*mucus_retention + 0.20*barrier_impairment + 0.15*lymph_flow_factor + 0.15*surface_score",
+    "mln_retention": "0.30*gut_to_lymph_translocation + 0.25*macrophage_sensitivity + 0.20*corona_score + 0.15*shape_retention + 0.10*clearance_inverse",
+    "immune_risk_index": "0.20*gut_to_lymph_translocation + 0.20*mln_burden_norm + 0.15*macrophage_activation + 0.15*ros_score + 0.15*cytokine_score + 0.10*systemic_spillover_norm + 0.05*barrier_impairment"
+  },
+  "risk_class_thresholds": {
+    "low": [
+      0.0,
+      0.25
+    ],
+    "moderate": [
+      0.26,
+      0.5
+    ],
+    "high": [
+      0.51,
+      0.75
+    ],
+    "severe": [
+      0.76,
+      1.0
+    ]
+  },
+  "expected_outputs": {
+    "stage1_particle_library": "input/particle_library.csv",
+    "stage2_lymphatic_parameters": "input/lymphatic_parameters.csv",
+    "stage3_exposure_scenarios": "input/exposure_scenarios.csv",
+    "stage4_particle_descriptors": "output/particle_descriptors.csv",
+    "stage5_interaction_descriptors": "output/interaction_descriptors.csv",
+    "stage6_pbtk_time_series": "output/pbtk_time_series.csv",
+    "stage7_immune_toxicodynamic_scores": "output/immune_toxicodynamic_scores.csv",
+    "stage8_final_ranking": "output/final_lymphatic_risk_ranking.csv",
+    "stage9_monte_carlo_summary": "output/monte_carlo_summary.csv",
+    "stage10_sensitivity_summary": "output/sensitivity_summary.csv"
+  },
+  "expected_figures": {
+    "fig1": "figures/fig1_lymphatic_digital_twin_framework.png",
+    "fig2": "figures/fig2_particle_translocation_landscape.png",
+    "fig3": "figures/fig3_mln_burden_curve.png",
+    "fig4": "figures/fig4_immune_pathway_network.png",
+    "fig5": "figures/fig5_dose_duration_safety_window.png",
+    "fig6": "figures/fig6_uncertainty_sensitivity.png"
+  }
+}

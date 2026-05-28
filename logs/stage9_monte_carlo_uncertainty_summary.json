@@ -1,0 +1,36 @@
+{
+  "stage": "stage9_monte_carlo_uncertainty_analysis",
+  "completed_at": "2026-05-23T20:20:25.692904",
+  "input_immune_scores": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/immune_toxicodynamic_scores.csv",
+  "n_scenarios": 48600,
+  "n_iterations": 300,
+  "chunk_size": 5000,
+  "random_seed": 20260524,
+  "mean_baseline_risk": 0.46049991625439984,
+  "mean_mc_risk": 0.46043175308469725,
+  "mean_mc_sd": 0.016337024195972473,
+  "mean_uncertainty_band_width": 0.05324128596736918,
+  "mean_prob_severe": 0.02413305898491084,
+  "mean_prob_high_or_severe": 0.3316188614540466,
+  "classification_stability_rate": 0.8310493827160493,
+  "generated_tables": {
+    "monte_carlo_uncertainty_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/monte_carlo_uncertainty_summary.csv",
+    "top100_mc_stable_high_risk": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage9_top100_mc_stable_high_risk.csv",
+    "mc_summary_by_host": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage9_mc_summary_by_host_status.csv",
+    "mc_summary_by_particle": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage9_mc_summary_by_particle_group.csv",
+    "mc_summary_by_baseline_class": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage9_mc_summary_by_baseline_risk_class.csv",
+    "risk_robustness_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage9_risk_robustness_summary.csv"
+  },
+  "generated_figures": {
+    "fig9a_mc_host_uncertainty_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig9a_mc_host_uncertainty_16x9.png",
+    "fig9b_baseline_vs_mc_mean_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig9b_baseline_vs_mc_mean_16x9.png",
+    "fig9c_particle_group_severe_probability_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig9c_particle_group_severe_probability_16x9.png",
+    "fig9d_top_scenario_uncertainty_intervals_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig9d_top_scenario_uncertainty_intervals_16x9.png"
+  },
+  "notes": [
+    "Stage 9 perturbs the final-risk model components using component-specific coefficient of variation values.",
+    "The output summarizes Monte Carlo mean risk, uncertainty intervals, probability of high or severe risk, and classification stability.",
+    "This is a scenario-based uncertainty analysis, not a clinical uncertainty model.",
+    "Stage 10 should conduct global sensitivity analysis."
+  ]
+}

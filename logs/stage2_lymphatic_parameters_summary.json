@@ -1,0 +1,38 @@
+{
+  "stage": "stage2_generate_lymphatic_host_parameters",
+  "completed_at": "2026-05-23T19:49:51.849147",
+  "input_config": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/logs/stage0_model_config.json",
+  "output_file": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/input/lymphatic_parameters.csv",
+  "n_host_scenarios": 6,
+  "gut_status_list": [
+    "barrier-impaired",
+    "inflamed",
+    "normal"
+  ],
+  "diet_state_list": [
+    "high-fat",
+    "normal"
+  ],
+  "numeric_columns": [
+    "mucus_thickness_factor",
+    "epithelial_barrier_integrity",
+    "barrier_impairment",
+    "m_cell_uptake_factor",
+    "peyer_patch_uptake_factor",
+    "lymph_flow_factor_base",
+    "lymph_flow_multiplier_diet",
+    "lymph_flow_factor_adjusted",
+    "hydrophobic_transport_factor",
+    "macrophage_sensitivity",
+    "cytokine_sensitivity",
+    "clearance_factor",
+    "clearance_inverse",
+    "host_susceptibility_score"
+  ],
+  "notes": [
+    "Host parameters are normalized scenario-based values.",
+    "They describe gut–lymphatic vulnerability conditions, not clinical diagnosis.",
+    "High-fat diet state is modeled as increased lymph-flow and hydrophobic transport potential.",
+    "These parameters will be merged with particle and exposure scenarios in later stages."
+  ]
+}

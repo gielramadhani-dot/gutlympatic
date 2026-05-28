@@ -1,0 +1,39 @@
+{
+  "stage": "stage3_generate_exposure_scenarios",
+  "completed_at": "2026-05-23T19:57:49.790110",
+  "input_config": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/logs/stage0_model_config.json",
+  "input_host_parameters": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/input/lymphatic_parameters.csv",
+  "output_file": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/input/exposure_scenarios.csv",
+  "n_exposure_scenarios": 72,
+  "route_counts": {
+    "oral": 72
+  },
+  "dose_level_counts": {
+    "low": 24,
+    "medium": 24,
+    "high": 24
+  },
+  "duration_counts": {
+    "30": 18,
+    "90": 18,
+    "180": 18,
+    "365": 18
+  },
+  "gut_status_counts": {
+    "normal": 24,
+    "inflamed": 24,
+    "barrier-impaired": 24
+  },
+  "diet_state_counts": {
+    "normal": 36,
+    "high-fat": 36
+  },
+  "max_host_adjusted_exposure_pressure": 0.840375,
+  "min_host_adjusted_exposure_pressure": 0.30377371543213805,
+  "notes": [
+    "Exposure values are normalized scenario-based units.",
+    "daily_dose_unit is not a clinical dose.",
+    "host_adjusted_exposure_pressure is a compact descriptor and does not replace PBTK simulation.",
+    "This exposure table will be combined with the particle library in later stages."
+  ]
+}

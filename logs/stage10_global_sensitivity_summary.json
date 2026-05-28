@@ -1,0 +1,67 @@
+{
+  "stage": "stage10_global_sensitivity_analysis",
+  "completed_at": "2026-05-23T20:25:56.086181",
+  "input_immune_scores": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/immune_toxicodynamic_scores.csv",
+  "input_monte_carlo_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/monte_carlo_uncertainty_summary.csv",
+  "target_variable": "lymphatic_microplastic_immune_risk_index",
+  "n_scenarios": 48600,
+  "rf_sample_n": 30000,
+  "n_estimators": 160,
+  "permutation_repeats": 5,
+  "exogenous_model_metrics": {
+    "analysis_block": "exogenous scenario factors",
+    "method": "random forest permutation importance",
+    "model_r2": 0.9917048332390731,
+    "model_rmse": 0.011422060677612016,
+    "n_model_rows": 30000,
+    "n_model_features_total": 28
+  },
+  "upstream_model_metrics": {
+    "analysis_block": "upstream interaction descriptors",
+    "method": "random forest permutation importance",
+    "model_r2": 0.9970295720508521,
+    "model_rmse": 0.006835045557560631,
+    "n_model_rows": 30000,
+    "n_model_features_total": 10
+  },
+  "mechanistic_model_metrics": {
+    "analysis_block": "mechanistic toxicodynamic components",
+    "method": "random forest permutation importance",
+    "model_r2": 0.9994862421308466,
+    "model_rmse": 0.0028425698530676856,
+    "n_model_rows": 30000,
+    "n_model_features_total": 8
+  },
+  "top_exogenous_factor": {
+    "factor": "gut_status",
+    "sensitivity_score": 0.892996227993501
+  },
+  "top_upstream_factor": {
+    "factor": "interaction_risk_proxy",
+    "sensitivity_score": 0.5733561178449702
+  },
+  "top_mechanistic_component": {
+    "factor": "macrophage_activation_score",
+    "sensitivity_score": 1.5855528651887458
+  },
+  "generated_tables": {
+    "sensitivity_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/sensitivity_summary.csv",
+    "exogenous_factor_sensitivity": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage10_exogenous_factor_sensitivity.csv",
+    "upstream_interaction_sensitivity": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage10_upstream_interaction_sensitivity.csv",
+    "mechanistic_component_sensitivity": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage10_mechanistic_component_sensitivity.csv",
+    "spearman_sensitivity": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage10_spearman_sensitivity.csv",
+    "category_delta_effects": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage10_category_delta_effects.csv"
+  },
+  "generated_figures": {
+    "fig10a_exogenous_factor_sensitivity_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig10a_exogenous_factor_sensitivity_16x9.png",
+    "fig10b_mechanistic_component_sensitivity_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig10b_mechanistic_component_sensitivity_16x9.png",
+    "fig10c_category_delta_effects_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig10c_category_delta_effects_16x9.png",
+    "fig10d_integrated_sensitivity_summary_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig10d_integrated_sensitivity_summary_16x9.png"
+  },
+  "notes": [
+    "Stage 10 estimates global sensitivity using random forest permutation importance when scikit-learn is available.",
+    "If random forest fails, the script automatically falls back to Spearman correlation and eta-squared sensitivity.",
+    "Sensitivity is reported separately for exogenous scenario factors, upstream interaction descriptors, and mechanistic toxicodynamic components.",
+    "Stage 11 should generate the final manuscript result package and export consolidated tables and figures."
+  ]
+}

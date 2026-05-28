@@ -1,0 +1,87 @@
+{
+  "stage": "stage5_calculate_interaction_descriptors",
+  "completed_at": "2026-05-23T20:07:38.166404",
+  "input_particle_descriptors": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/particle_descriptors.csv",
+  "input_exposure_scenarios": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/input/exposure_scenarios.csv",
+  "output_interaction_descriptors": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/interaction_descriptors.csv",
+  "top_interactions_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage5_top100_interaction_risk_proxy.csv",
+  "summary_by_host_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage5_summary_by_host_status.csv",
+  "summary_by_particle_table": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage5_summary_by_particle_group.csv",
+  "n_particles": 675,
+  "n_exposure_scenarios": 72,
+  "n_interaction_rows": 48600,
+  "interaction_score_columns": [
+    "mucus_retention",
+    "P_Mcell",
+    "peyer_patch_entry_score",
+    "gut_to_lymph_translocation",
+    "lymphatic_entry_score",
+    "MLN_retention",
+    "macrophage_uptake_potential",
+    "systemic_spillover_potential",
+    "interaction_risk_proxy"
+  ],
+  "mean_scores": {
+    "mucus_retention": 0.6065260685328193,
+    "P_Mcell": 0.6044346374558623,
+    "peyer_patch_entry_score": 0.5802658562537117,
+    "gut_to_lymph_translocation": 0.5763609382766558,
+    "lymphatic_entry_score": 0.655869936768313,
+    "MLN_retention": 0.5878082814829968,
+    "macrophage_uptake_potential": 0.6387546843099037,
+    "systemic_spillover_potential": 0.6143334485776488,
+    "interaction_risk_proxy": 0.6124607273842432
+  },
+  "min_scores": {
+    "mucus_retention": 0.3515143956544404,
+    "P_Mcell": 0.21260656705940287,
+    "peyer_patch_entry_score": 0.2911498049027592,
+    "gut_to_lymph_translocation": 0.3540640350992993,
+    "lymphatic_entry_score": 0.4318618537678233,
+    "MLN_retention": 0.3445634572811881,
+    "macrophage_uptake_potential": 0.3792771125758116,
+    "systemic_spillover_potential": 0.3987177729033012,
+    "interaction_risk_proxy": 0.3636294997779042
+  },
+  "max_scores": {
+    "mucus_retention": 0.8973996889284307,
+    "P_Mcell": 0.8587008711958417,
+    "peyer_patch_entry_score": 0.80490717968996,
+    "gut_to_lymph_translocation": 0.7338439925541606,
+    "lymphatic_entry_score": 0.828131970209705,
+    "MLN_retention": 0.7776531977662482,
+    "macrophage_uptake_potential": 0.8446175673397175,
+    "systemic_spillover_potential": 0.7752083895737435,
+    "interaction_risk_proxy": 0.8187628547908329
+  },
+  "top_interaction_particle_ids": [
+    "MP0432",
+    "MP0459",
+    "MP0432",
+    "MP0459",
+    "MP0431",
+    "MP0567",
+    "MP0458",
+    "MP0594",
+    "MP0423",
+    "MP0429"
+  ],
+  "top_interaction_exposure_ids": [
+    "EXP0072",
+    "EXP0072",
+    "EXP0066",
+    "EXP0066",
+    "EXP0072",
+    "EXP0072",
+    "EXP0072",
+    "EXP0072",
+    "EXP0072",
+    "EXP0072"
+  ],
+  "notes": [
+    "Stage 5 combines particle descriptors with exposure and host scenarios.",
+    "The output interaction_risk_proxy is not the final immune risk index.",
+    "Stage 6 will use the rate parameters generated here to run PBTK ODE simulation.",
+    "All values are normalized scenario-based descriptors."
+  ]
+}

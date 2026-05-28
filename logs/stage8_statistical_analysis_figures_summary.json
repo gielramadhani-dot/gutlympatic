@@ -1,0 +1,38 @@
+{
+  "stage": "stage8_statistical_analysis_and_manuscript_figures",
+  "completed_at": "2026-05-23T20:17:25.514720",
+  "input_immune_scores": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/immune_toxicodynamic_scores.csv",
+  "input_final_ranking": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/output/final_lymphatic_risk_ranking.csv",
+  "n_scenarios": 48600,
+  "mean_final_risk": 0.46049991625439984,
+  "max_final_risk": 0.874641652884942,
+  "risk_class_counts": {
+    "low": 294,
+    "moderate": 32152,
+    "high": 15014,
+    "severe": 1140
+  },
+  "generated_tables": {
+    "overall_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_overall_statistical_summary.csv",
+    "risk_class_distribution": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_risk_class_distribution.csv",
+    "host_diet_risk_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_host_diet_risk_summary.csv",
+    "dose_duration_safety_window": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_dose_duration_safety_window.csv",
+    "particle_group_risk_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_particle_group_risk_summary.csv",
+    "effect_size_comparisons": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_effect_size_comparisons.csv",
+    "mechanistic_driver_summary": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/tables/stage8_mechanistic_driver_summary.csv",
+    "manuscript_key_results": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/manuscript_ready/stage8_manuscript_key_results.csv"
+  },
+  "generated_figures": {
+    "fig8a_host_diet_immune_risk_landscape_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig8a_host_diet_immune_risk_landscape_16x9.png",
+    "fig8b_dose_duration_safety_window_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig8b_dose_duration_safety_window_16x9.png",
+    "fig8c_particle_group_risk_bubblemap_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig8c_particle_group_risk_bubblemap_16x9.png",
+    "fig8d_mechanistic_driver_distribution_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig8d_mechanistic_driver_distribution_16x9.png",
+    "fig8e_integrated_manuscript_summary_16x9": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/figures/fig8e_integrated_manuscript_summary_16x9.png"
+  },
+  "notes": [
+    "Stage 8 creates statistical summaries and manuscript-ready figures.",
+    "The figures are saved in 16:9 PNG format at 300 dpi.",
+    "The analysis remains scenario-based and normalized.",
+    "Stage 9 should run Monte Carlo uncertainty analysis."
+  ]
+}

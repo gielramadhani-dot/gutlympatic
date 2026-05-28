@@ -1,0 +1,51 @@
+{
+  "stage": "stage1_generate_particle_library",
+  "completed_at": "2026-05-23T19:44:15.725376",
+  "input_config": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/logs/stage0_model_config.json",
+  "output_file": "/content/drive/MyDrive/Lymphatic_Microplastic_Digital_Twin/input/particle_library.csv",
+  "n_particles": 675,
+  "polymer_counts": {
+    "PET": 135,
+    "PE": 135,
+    "PP": 135,
+    "PS": 135,
+    "PVC": 135
+  },
+  "size_counts": {
+    "0.05": 135,
+    "0.1": 135,
+    "1.0": 135,
+    "5.0": 135,
+    "10.0": 135
+  },
+  "shape_counts": {
+    "sphere": 225,
+    "fragment": 225,
+    "fiber": 225
+  },
+  "aging_counts": {
+    "pristine": 225,
+    "UV-aged": 225,
+    "oxidized": 225
+  },
+  "charge_counts": {
+    "neutral": 225,
+    "negative": 225,
+    "positive": 225
+  },
+  "score_columns": [
+    "oxidation_score",
+    "corona_score",
+    "hydrophobicity_score",
+    "roughness_score",
+    "leachate_score",
+    "charge_score",
+    "shape_factor",
+    "shape_retention"
+  ],
+  "notes": [
+    "Scores are normalized scenario-based descriptors.",
+    "They are not direct experimental measurements.",
+    "This library will be used for particle descriptor calculation and interaction modeling in later stages."
+  ]
+}
