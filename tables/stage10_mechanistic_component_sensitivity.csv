@@ -1,0 +1,9 @@
+analysis_block,factor,sensitivity_score,mean_feature_importance,sd_feature_importance,n_model_features,method,model_r2,model_rmse,n_model_rows,n_model_features_total
+mechanistic toxicodynamic components,macrophage_activation_score,1.5855528651887458,1.5855528651887458,0.011422751398194434,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,lymphatic_burden_index,0.011632014778543143,0.011632014778543143,0.00014801953332838305,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,gut_to_lymph_translocation,0.0046801303196063685,0.0046801303196063685,6.980268226155665e-05,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,cytokine_activation_score,0.003850389079950367,0.003850389079950367,2.6332803086152644e-05,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,MLN_retention,0.001746383170375032,0.001746383170375032,2.199649168190004e-05,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,systemic_inflammatory_spillover_score,0.0012261248198428775,0.0012261248198428775,1.938164487369421e-05,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,host_adjusted_exposure_pressure,0.000760553519454299,0.000760553519454299,2.1504614668368395e-05,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8
+mechanistic toxicodynamic components,ROS_score,0.0004767853658063759,0.0004767853658063759,1.3418825418706832e-05,1,random forest permutation importance,0.9994862421308466,0.0028425698530676856,30000,8

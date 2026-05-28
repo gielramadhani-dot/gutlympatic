@@ -1,0 +1,11 @@
+analysis_block,factor,sensitivity_score,mean_feature_importance,sd_feature_importance,n_model_features,method,model_r2,model_rmse,n_model_rows,n_model_features_total
+upstream interaction descriptors,interaction_risk_proxy,0.5733561178449702,0.5733561178449702,0.0045355158328430215,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,host_adjusted_exposure_pressure,0.47312895081989925,0.47312895081989925,0.0044853419512051,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,systemic_spillover_potential,0.007759038437683663,0.007759038437683663,0.0005025802496162204,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,MLN_retention,0.004159301431799811,0.004159301431799811,0.00012212435030324587,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,gut_to_lymph_translocation,0.003032971989249944,0.003032971989249944,4.275440940122524e-05,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,particle_hazard_potential,0.001955247003758198,0.001955247003758198,6.803944750674344e-05,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,P_Mcell,0.001284445895314268,0.001284445895314268,6.0335678424544445e-05,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,mucus_retention,0.0006003267449987248,0.0006003267449987248,3.953806240107842e-05,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,lymphatic_entry_score,0.0004653654511838967,0.0004653654511838967,1.7460955901152865e-05,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
+upstream interaction descriptors,macrophage_uptake_potential,0.00039215786289237275,0.00039215786289237275,2.4826302879854036e-05,1,random forest permutation importance,0.9970295720508521,0.006835045557560631,30000,10
