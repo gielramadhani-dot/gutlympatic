@@ -1,0 +1,676 @@
+particle_id,polymer,size_um,shape,aging,charge,oxidation_score,corona_score,hydrophobicity_score,roughness_score,leachate_score,charge_score,shape_factor,shape_retention,size_class,reactive_surface_class,corona_potential_class
+MP0001,PET,0.05,sphere,pristine,neutral,0.23,0.67,0.55,0.274,0.612,0.3,1.0,0.3,nano-scale,low,high
+MP0002,PET,0.05,sphere,pristine,negative,0.23,0.7300000000000001,0.55,0.274,0.612,0.6,1.0,0.3,nano-scale,low,high
+MP0003,PET,0.05,sphere,pristine,positive,0.23,0.77,0.55,0.274,0.612,0.8,1.0,0.3,nano-scale,low,high
+MP0004,PET,0.05,sphere,UV-aged,neutral,0.8300000000000001,0.75,0.55,0.5740000000000001,0.692,0.3,1.0,0.3,nano-scale,high,high
+MP0005,PET,0.05,sphere,UV-aged,negative,0.8300000000000001,0.8099999999999999,0.55,0.5740000000000001,0.692,0.6,1.0,0.3,nano-scale,high,high
+MP0006,PET,0.05,sphere,UV-aged,positive,0.8300000000000001,0.85,0.55,0.5740000000000001,0.692,0.8,1.0,0.3,nano-scale,high,high
+MP0007,PET,0.05,sphere,oxidized,neutral,1.0,0.77,0.55,0.724,0.712,0.3,1.0,0.3,nano-scale,high,high
+MP0008,PET,0.05,sphere,oxidized,negative,1.0,0.83,0.55,0.724,0.712,0.6,1.0,0.3,nano-scale,high,high
+MP0009,PET,0.05,sphere,oxidized,positive,1.0,0.87,0.55,0.724,0.712,0.8,1.0,0.3,nano-scale,high,high
+MP0010,PET,0.05,fragment,pristine,neutral,0.23,0.7100000000000001,0.55,0.35400000000000004,0.642,0.3,1.25,0.6,nano-scale,low,high
+MP0011,PET,0.05,fragment,pristine,negative,0.23,0.7700000000000001,0.55,0.35400000000000004,0.642,0.6,1.25,0.6,nano-scale,low,high
+MP0012,PET,0.05,fragment,pristine,positive,0.23,0.81,0.55,0.35400000000000004,0.642,0.8,1.25,0.6,nano-scale,low,high
+MP0013,PET,0.05,fragment,UV-aged,neutral,0.8300000000000001,0.79,0.55,0.654,0.722,0.3,1.25,0.6,nano-scale,high,high
+MP0014,PET,0.05,fragment,UV-aged,negative,0.8300000000000001,0.85,0.55,0.654,0.722,0.6,1.25,0.6,nano-scale,high,high
+MP0015,PET,0.05,fragment,UV-aged,positive,0.8300000000000001,0.89,0.55,0.654,0.722,0.8,1.25,0.6,nano-scale,high,high
+MP0016,PET,0.05,fragment,oxidized,neutral,1.0,0.81,0.55,0.8039999999999999,0.742,0.3,1.25,0.6,nano-scale,high,high
+MP0017,PET,0.05,fragment,oxidized,negative,1.0,0.87,0.55,0.8039999999999999,0.742,0.6,1.25,0.6,nano-scale,high,high
+MP0018,PET,0.05,fragment,oxidized,positive,1.0,0.91,0.55,0.8039999999999999,0.742,0.8,1.25,0.6,nano-scale,high,high
+MP0019,PET,0.05,fiber,pristine,neutral,0.23,0.7000000000000001,0.55,0.374,0.632,0.3,1.6,0.85,nano-scale,low,high
+MP0020,PET,0.05,fiber,pristine,negative,0.23,0.7600000000000001,0.55,0.374,0.632,0.6,1.6,0.85,nano-scale,low,high
+MP0021,PET,0.05,fiber,pristine,positive,0.23,0.8,0.55,0.374,0.632,0.8,1.6,0.85,nano-scale,low,high
+MP0022,PET,0.05,fiber,UV-aged,neutral,0.8300000000000001,0.78,0.55,0.674,0.712,0.3,1.6,0.85,nano-scale,high,high
+MP0023,PET,0.05,fiber,UV-aged,negative,0.8300000000000001,0.84,0.55,0.674,0.712,0.6,1.6,0.85,nano-scale,high,high
+MP0024,PET,0.05,fiber,UV-aged,positive,0.8300000000000001,0.88,0.55,0.674,0.712,0.8,1.6,0.85,nano-scale,high,high
+MP0025,PET,0.05,fiber,oxidized,neutral,1.0,0.8,0.55,0.824,0.732,0.3,1.6,0.85,nano-scale,high,high
+MP0026,PET,0.05,fiber,oxidized,negative,1.0,0.86,0.55,0.824,0.732,0.6,1.6,0.85,nano-scale,high,high
+MP0027,PET,0.05,fiber,oxidized,positive,1.0,0.9,0.55,0.824,0.732,0.8,1.6,0.85,nano-scale,high,high
+MP0028,PET,0.1,sphere,pristine,neutral,0.23,0.67,0.55,0.274,0.612,0.3,1.0,0.3,nano-scale,low,high
+MP0029,PET,0.1,sphere,pristine,negative,0.23,0.7300000000000001,0.55,0.274,0.612,0.6,1.0,0.3,nano-scale,low,high
+MP0030,PET,0.1,sphere,pristine,positive,0.23,0.77,0.55,0.274,0.612,0.8,1.0,0.3,nano-scale,low,high
+MP0031,PET,0.1,sphere,UV-aged,neutral,0.8300000000000001,0.75,0.55,0.5740000000000001,0.692,0.3,1.0,0.3,nano-scale,high,high
+MP0032,PET,0.1,sphere,UV-aged,negative,0.8300000000000001,0.8099999999999999,0.55,0.5740000000000001,0.692,0.6,1.0,0.3,nano-scale,high,high
+MP0033,PET,0.1,sphere,UV-aged,positive,0.8300000000000001,0.85,0.55,0.5740000000000001,0.692,0.8,1.0,0.3,nano-scale,high,high
+MP0034,PET,0.1,sphere,oxidized,neutral,1.0,0.77,0.55,0.724,0.712,0.3,1.0,0.3,nano-scale,high,high
+MP0035,PET,0.1,sphere,oxidized,negative,1.0,0.83,0.55,0.724,0.712,0.6,1.0,0.3,nano-scale,high,high
+MP0036,PET,0.1,sphere,oxidized,positive,1.0,0.87,0.55,0.724,0.712,0.8,1.0,0.3,nano-scale,high,high
+MP0037,PET,0.1,fragment,pristine,neutral,0.23,0.7100000000000001,0.55,0.35400000000000004,0.642,0.3,1.25,0.6,nano-scale,low,high
+MP0038,PET,0.1,fragment,pristine,negative,0.23,0.7700000000000001,0.55,0.35400000000000004,0.642,0.6,1.25,0.6,nano-scale,low,high
+MP0039,PET,0.1,fragment,pristine,positive,0.23,0.81,0.55,0.35400000000000004,0.642,0.8,1.25,0.6,nano-scale,low,high
+MP0040,PET,0.1,fragment,UV-aged,neutral,0.8300000000000001,0.79,0.55,0.654,0.722,0.3,1.25,0.6,nano-scale,high,high
+MP0041,PET,0.1,fragment,UV-aged,negative,0.8300000000000001,0.85,0.55,0.654,0.722,0.6,1.25,0.6,nano-scale,high,high
+MP0042,PET,0.1,fragment,UV-aged,positive,0.8300000000000001,0.89,0.55,0.654,0.722,0.8,1.25,0.6,nano-scale,high,high
+MP0043,PET,0.1,fragment,oxidized,neutral,1.0,0.81,0.55,0.8039999999999999,0.742,0.3,1.25,0.6,nano-scale,high,high
+MP0044,PET,0.1,fragment,oxidized,negative,1.0,0.87,0.55,0.8039999999999999,0.742,0.6,1.25,0.6,nano-scale,high,high
+MP0045,PET,0.1,fragment,oxidized,positive,1.0,0.91,0.55,0.8039999999999999,0.742,0.8,1.25,0.6,nano-scale,high,high
+MP0046,PET,0.1,fiber,pristine,neutral,0.23,0.7000000000000001,0.55,0.374,0.632,0.3,1.6,0.85,nano-scale,low,high
+MP0047,PET,0.1,fiber,pristine,negative,0.23,0.7600000000000001,0.55,0.374,0.632,0.6,1.6,0.85,nano-scale,low,high
+MP0048,PET,0.1,fiber,pristine,positive,0.23,0.8,0.55,0.374,0.632,0.8,1.6,0.85,nano-scale,low,high
+MP0049,PET,0.1,fiber,UV-aged,neutral,0.8300000000000001,0.78,0.55,0.674,0.712,0.3,1.6,0.85,nano-scale,high,high
+MP0050,PET,0.1,fiber,UV-aged,negative,0.8300000000000001,0.84,0.55,0.674,0.712,0.6,1.6,0.85,nano-scale,high,high
+MP0051,PET,0.1,fiber,UV-aged,positive,0.8300000000000001,0.88,0.55,0.674,0.712,0.8,1.6,0.85,nano-scale,high,high
+MP0052,PET,0.1,fiber,oxidized,neutral,1.0,0.8,0.55,0.824,0.732,0.3,1.6,0.85,nano-scale,high,high
+MP0053,PET,0.1,fiber,oxidized,negative,1.0,0.86,0.55,0.824,0.732,0.6,1.6,0.85,nano-scale,high,high
+MP0054,PET,0.1,fiber,oxidized,positive,1.0,0.9,0.55,0.824,0.732,0.8,1.6,0.85,nano-scale,high,high
+MP0055,PET,1.0,sphere,pristine,neutral,0.22,0.63,0.55,0.266,0.608,0.3,1.0,0.3,submicron-to-small,low,moderate
+MP0056,PET,1.0,sphere,pristine,negative,0.22,0.6900000000000001,0.55,0.266,0.608,0.6,1.0,0.3,submicron-to-small,low,high
+MP0057,PET,1.0,sphere,pristine,positive,0.22,0.73,0.55,0.266,0.608,0.8,1.0,0.3,submicron-to-small,low,high
+MP0058,PET,1.0,sphere,UV-aged,neutral,0.8200000000000001,0.71,0.55,0.5660000000000001,0.688,0.3,1.0,0.3,submicron-to-small,high,high
+MP0059,PET,1.0,sphere,UV-aged,negative,0.8200000000000001,0.7699999999999999,0.55,0.5660000000000001,0.688,0.6,1.0,0.3,submicron-to-small,high,high
+MP0060,PET,1.0,sphere,UV-aged,positive,0.8200000000000001,0.8099999999999999,0.55,0.5660000000000001,0.688,0.8,1.0,0.3,submicron-to-small,high,high
+MP0061,PET,1.0,sphere,oxidized,neutral,1.0,0.73,0.55,0.716,0.708,0.3,1.0,0.3,submicron-to-small,high,high
+MP0062,PET,1.0,sphere,oxidized,negative,1.0,0.7899999999999999,0.55,0.716,0.708,0.6,1.0,0.3,submicron-to-small,high,high
+MP0063,PET,1.0,sphere,oxidized,positive,1.0,0.83,0.55,0.716,0.708,0.8,1.0,0.3,submicron-to-small,high,high
+MP0064,PET,1.0,fragment,pristine,neutral,0.22,0.67,0.55,0.34600000000000003,0.638,0.3,1.25,0.6,submicron-to-small,low,high
+MP0065,PET,1.0,fragment,pristine,negative,0.22,0.7300000000000001,0.55,0.34600000000000003,0.638,0.6,1.25,0.6,submicron-to-small,low,high
+MP0066,PET,1.0,fragment,pristine,positive,0.22,0.77,0.55,0.34600000000000003,0.638,0.8,1.25,0.6,submicron-to-small,low,high
+MP0067,PET,1.0,fragment,UV-aged,neutral,0.8200000000000001,0.75,0.55,0.646,0.718,0.3,1.25,0.6,submicron-to-small,high,high
+MP0068,PET,1.0,fragment,UV-aged,negative,0.8200000000000001,0.8099999999999999,0.55,0.646,0.718,0.6,1.25,0.6,submicron-to-small,high,high
+MP0069,PET,1.0,fragment,UV-aged,positive,0.8200000000000001,0.85,0.55,0.646,0.718,0.8,1.25,0.6,submicron-to-small,high,high
+MP0070,PET,1.0,fragment,oxidized,neutral,1.0,0.77,0.55,0.7959999999999999,0.738,0.3,1.25,0.6,submicron-to-small,high,high
+MP0071,PET,1.0,fragment,oxidized,negative,1.0,0.83,0.55,0.7959999999999999,0.738,0.6,1.25,0.6,submicron-to-small,high,high
+MP0072,PET,1.0,fragment,oxidized,positive,1.0,0.87,0.55,0.7959999999999999,0.738,0.8,1.25,0.6,submicron-to-small,high,high
+MP0073,PET,1.0,fiber,pristine,neutral,0.22,0.66,0.55,0.366,0.628,0.3,1.6,0.85,submicron-to-small,low,high
+MP0074,PET,1.0,fiber,pristine,negative,0.22,0.7200000000000001,0.55,0.366,0.628,0.6,1.6,0.85,submicron-to-small,low,high
+MP0075,PET,1.0,fiber,pristine,positive,0.22,0.76,0.55,0.366,0.628,0.8,1.6,0.85,submicron-to-small,low,high
+MP0076,PET,1.0,fiber,UV-aged,neutral,0.8200000000000001,0.74,0.55,0.666,0.708,0.3,1.6,0.85,submicron-to-small,high,high
+MP0077,PET,1.0,fiber,UV-aged,negative,0.8200000000000001,0.7999999999999999,0.55,0.666,0.708,0.6,1.6,0.85,submicron-to-small,high,high
+MP0078,PET,1.0,fiber,UV-aged,positive,0.8200000000000001,0.84,0.55,0.666,0.708,0.8,1.6,0.85,submicron-to-small,high,high
+MP0079,PET,1.0,fiber,oxidized,neutral,1.0,0.76,0.55,0.816,0.728,0.3,1.6,0.85,submicron-to-small,high,high
+MP0080,PET,1.0,fiber,oxidized,negative,1.0,0.82,0.55,0.816,0.728,0.6,1.6,0.85,submicron-to-small,high,high
+MP0081,PET,1.0,fiber,oxidized,positive,1.0,0.86,0.55,0.816,0.728,0.8,1.6,0.85,submicron-to-small,high,high
+MP0082,PET,5.0,sphere,pristine,neutral,0.21000000000000002,0.5900000000000001,0.55,0.258,0.604,0.3,1.0,0.3,small microplastic,low,moderate
+MP0083,PET,5.0,sphere,pristine,negative,0.21000000000000002,0.6500000000000001,0.55,0.258,0.604,0.6,1.0,0.3,small microplastic,low,high
+MP0084,PET,5.0,sphere,pristine,positive,0.21000000000000002,0.6900000000000001,0.55,0.258,0.604,0.8,1.0,0.3,small microplastic,low,high
+MP0085,PET,5.0,sphere,UV-aged,neutral,0.81,0.67,0.55,0.558,0.6839999999999999,0.3,1.0,0.3,small microplastic,high,high
+MP0086,PET,5.0,sphere,UV-aged,negative,0.81,0.73,0.55,0.558,0.6839999999999999,0.6,1.0,0.3,small microplastic,high,high
+MP0087,PET,5.0,sphere,UV-aged,positive,0.81,0.77,0.55,0.558,0.6839999999999999,0.8,1.0,0.3,small microplastic,high,high
+MP0088,PET,5.0,sphere,oxidized,neutral,1.0,0.6900000000000001,0.55,0.708,0.704,0.3,1.0,0.3,small microplastic,high,high
+MP0089,PET,5.0,sphere,oxidized,negative,1.0,0.75,0.55,0.708,0.704,0.6,1.0,0.3,small microplastic,high,high
+MP0090,PET,5.0,sphere,oxidized,positive,1.0,0.79,0.55,0.708,0.704,0.8,1.0,0.3,small microplastic,high,high
+MP0091,PET,5.0,fragment,pristine,neutral,0.21000000000000002,0.6300000000000001,0.55,0.338,0.634,0.3,1.25,0.6,small microplastic,low,moderate
+MP0092,PET,5.0,fragment,pristine,negative,0.21000000000000002,0.6900000000000002,0.55,0.338,0.634,0.6,1.25,0.6,small microplastic,low,high
+MP0093,PET,5.0,fragment,pristine,positive,0.21000000000000002,0.7300000000000001,0.55,0.338,0.634,0.8,1.25,0.6,small microplastic,low,high
+MP0094,PET,5.0,fragment,UV-aged,neutral,0.81,0.7100000000000001,0.55,0.638,0.714,0.3,1.25,0.6,small microplastic,high,high
+MP0095,PET,5.0,fragment,UV-aged,negative,0.81,0.77,0.55,0.638,0.714,0.6,1.25,0.6,small microplastic,high,high
+MP0096,PET,5.0,fragment,UV-aged,positive,0.81,0.81,0.55,0.638,0.714,0.8,1.25,0.6,small microplastic,high,high
+MP0097,PET,5.0,fragment,oxidized,neutral,1.0,0.7300000000000001,0.55,0.7879999999999999,0.734,0.3,1.25,0.6,small microplastic,high,high
+MP0098,PET,5.0,fragment,oxidized,negative,1.0,0.79,0.55,0.7879999999999999,0.734,0.6,1.25,0.6,small microplastic,high,high
+MP0099,PET,5.0,fragment,oxidized,positive,1.0,0.8300000000000001,0.55,0.7879999999999999,0.734,0.8,1.25,0.6,small microplastic,high,high
+MP0100,PET,5.0,fiber,pristine,neutral,0.21000000000000002,0.6200000000000001,0.55,0.358,0.624,0.3,1.6,0.85,small microplastic,low,moderate
+MP0101,PET,5.0,fiber,pristine,negative,0.21000000000000002,0.6800000000000002,0.55,0.358,0.624,0.6,1.6,0.85,small microplastic,low,high
+MP0102,PET,5.0,fiber,pristine,positive,0.21000000000000002,0.7200000000000001,0.55,0.358,0.624,0.8,1.6,0.85,small microplastic,low,high
+MP0103,PET,5.0,fiber,UV-aged,neutral,0.81,0.7000000000000001,0.55,0.658,0.704,0.3,1.6,0.85,small microplastic,high,high
+MP0104,PET,5.0,fiber,UV-aged,negative,0.81,0.76,0.55,0.658,0.704,0.6,1.6,0.85,small microplastic,high,high
+MP0105,PET,5.0,fiber,UV-aged,positive,0.81,0.8,0.55,0.658,0.704,0.8,1.6,0.85,small microplastic,high,high
+MP0106,PET,5.0,fiber,oxidized,neutral,1.0,0.7200000000000001,0.55,0.8079999999999999,0.724,0.3,1.6,0.85,small microplastic,high,high
+MP0107,PET,5.0,fiber,oxidized,negative,1.0,0.78,0.55,0.8079999999999999,0.724,0.6,1.6,0.85,small microplastic,high,high
+MP0108,PET,5.0,fiber,oxidized,positive,1.0,0.8200000000000001,0.55,0.8079999999999999,0.724,0.8,1.6,0.85,small microplastic,high,high
+MP0109,PET,10.0,sphere,pristine,neutral,0.2,0.55,0.55,0.25,0.6,0.3,1.0,0.3,larger microplastic,low,moderate
+MP0110,PET,10.0,sphere,pristine,negative,0.2,0.6100000000000001,0.55,0.25,0.6,0.6,1.0,0.3,larger microplastic,low,moderate
+MP0111,PET,10.0,sphere,pristine,positive,0.2,0.65,0.55,0.25,0.6,0.8,1.0,0.3,larger microplastic,low,moderate
+MP0112,PET,10.0,sphere,UV-aged,neutral,0.8,0.63,0.55,0.55,0.6799999999999999,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0113,PET,10.0,sphere,UV-aged,negative,0.8,0.69,0.55,0.55,0.6799999999999999,0.6,1.0,0.3,larger microplastic,high,high
+MP0114,PET,10.0,sphere,UV-aged,positive,0.8,0.73,0.55,0.55,0.6799999999999999,0.8,1.0,0.3,larger microplastic,high,high
+MP0115,PET,10.0,sphere,oxidized,neutral,1.0,0.65,0.55,0.7,0.7,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0116,PET,10.0,sphere,oxidized,negative,1.0,0.71,0.55,0.7,0.7,0.6,1.0,0.3,larger microplastic,high,high
+MP0117,PET,10.0,sphere,oxidized,positive,1.0,0.75,0.55,0.7,0.7,0.8,1.0,0.3,larger microplastic,high,high
+MP0118,PET,10.0,fragment,pristine,neutral,0.2,0.5900000000000001,0.55,0.33,0.63,0.3,1.25,0.6,larger microplastic,low,moderate
+MP0119,PET,10.0,fragment,pristine,negative,0.2,0.6500000000000001,0.55,0.33,0.63,0.6,1.25,0.6,larger microplastic,low,high
+MP0120,PET,10.0,fragment,pristine,positive,0.2,0.6900000000000001,0.55,0.33,0.63,0.8,1.25,0.6,larger microplastic,low,high
+MP0121,PET,10.0,fragment,UV-aged,neutral,0.8,0.67,0.55,0.63,0.71,0.3,1.25,0.6,larger microplastic,high,high
+MP0122,PET,10.0,fragment,UV-aged,negative,0.8,0.73,0.55,0.63,0.71,0.6,1.25,0.6,larger microplastic,high,high
+MP0123,PET,10.0,fragment,UV-aged,positive,0.8,0.77,0.55,0.63,0.71,0.8,1.25,0.6,larger microplastic,high,high
+MP0124,PET,10.0,fragment,oxidized,neutral,1.0,0.6900000000000001,0.55,0.7799999999999999,0.73,0.3,1.25,0.6,larger microplastic,high,high
+MP0125,PET,10.0,fragment,oxidized,negative,1.0,0.75,0.55,0.7799999999999999,0.73,0.6,1.25,0.6,larger microplastic,high,high
+MP0126,PET,10.0,fragment,oxidized,positive,1.0,0.79,0.55,0.7799999999999999,0.73,0.8,1.25,0.6,larger microplastic,high,high
+MP0127,PET,10.0,fiber,pristine,neutral,0.2,0.5800000000000001,0.55,0.35,0.62,0.3,1.6,0.85,larger microplastic,low,moderate
+MP0128,PET,10.0,fiber,pristine,negative,0.2,0.6400000000000001,0.55,0.35,0.62,0.6,1.6,0.85,larger microplastic,low,moderate
+MP0129,PET,10.0,fiber,pristine,positive,0.2,0.68,0.55,0.35,0.62,0.8,1.6,0.85,larger microplastic,low,high
+MP0130,PET,10.0,fiber,UV-aged,neutral,0.8,0.66,0.55,0.65,0.7,0.3,1.6,0.85,larger microplastic,high,high
+MP0131,PET,10.0,fiber,UV-aged,negative,0.8,0.72,0.55,0.65,0.7,0.6,1.6,0.85,larger microplastic,high,high
+MP0132,PET,10.0,fiber,UV-aged,positive,0.8,0.76,0.55,0.65,0.7,0.8,1.6,0.85,larger microplastic,high,high
+MP0133,PET,10.0,fiber,oxidized,neutral,1.0,0.68,0.55,0.7999999999999999,0.72,0.3,1.6,0.85,larger microplastic,high,high
+MP0134,PET,10.0,fiber,oxidized,negative,1.0,0.74,0.55,0.7999999999999999,0.72,0.6,1.6,0.85,larger microplastic,high,high
+MP0135,PET,10.0,fiber,oxidized,positive,1.0,0.78,0.55,0.7999999999999999,0.72,0.8,1.6,0.85,larger microplastic,high,high
+MP0136,PE,0.05,sphere,pristine,neutral,0.23,0.5700000000000001,0.85,0.274,0.41200000000000003,0.3,1.0,0.3,nano-scale,low,moderate
+MP0137,PE,0.05,sphere,pristine,negative,0.23,0.63,0.85,0.274,0.41200000000000003,0.6,1.0,0.3,nano-scale,low,moderate
+MP0138,PE,0.05,sphere,pristine,positive,0.23,0.67,0.85,0.274,0.41200000000000003,0.8,1.0,0.3,nano-scale,low,high
+MP0139,PE,0.05,sphere,UV-aged,neutral,0.8300000000000001,0.65,0.85,0.5740000000000001,0.49200000000000005,0.3,1.0,0.3,nano-scale,high,moderate
+MP0140,PE,0.05,sphere,UV-aged,negative,0.8300000000000001,0.7100000000000001,0.85,0.5740000000000001,0.49200000000000005,0.6,1.0,0.3,nano-scale,high,high
+MP0141,PE,0.05,sphere,UV-aged,positive,0.8300000000000001,0.75,0.85,0.5740000000000001,0.49200000000000005,0.8,1.0,0.3,nano-scale,high,high
+MP0142,PE,0.05,sphere,oxidized,neutral,1.0,0.67,0.85,0.724,0.512,0.3,1.0,0.3,nano-scale,high,high
+MP0143,PE,0.05,sphere,oxidized,negative,1.0,0.7300000000000001,0.85,0.724,0.512,0.6,1.0,0.3,nano-scale,high,high
+MP0144,PE,0.05,sphere,oxidized,positive,1.0,0.77,0.85,0.724,0.512,0.8,1.0,0.3,nano-scale,high,high
+MP0145,PE,0.05,fragment,pristine,neutral,0.23,0.61,0.85,0.35400000000000004,0.44200000000000006,0.3,1.25,0.6,nano-scale,low,moderate
+MP0146,PE,0.05,fragment,pristine,negative,0.23,0.67,0.85,0.35400000000000004,0.44200000000000006,0.6,1.25,0.6,nano-scale,low,high
+MP0147,PE,0.05,fragment,pristine,positive,0.23,0.71,0.85,0.35400000000000004,0.44200000000000006,0.8,1.25,0.6,nano-scale,low,high
+MP0148,PE,0.05,fragment,UV-aged,neutral,0.8300000000000001,0.6900000000000001,0.85,0.654,0.522,0.3,1.25,0.6,nano-scale,high,high
+MP0149,PE,0.05,fragment,UV-aged,negative,0.8300000000000001,0.7500000000000001,0.85,0.654,0.522,0.6,1.25,0.6,nano-scale,high,high
+MP0150,PE,0.05,fragment,UV-aged,positive,0.8300000000000001,0.79,0.85,0.654,0.522,0.8,1.25,0.6,nano-scale,high,high
+MP0151,PE,0.05,fragment,oxidized,neutral,1.0,0.7100000000000001,0.85,0.8039999999999999,0.542,0.3,1.25,0.6,nano-scale,high,high
+MP0152,PE,0.05,fragment,oxidized,negative,1.0,0.7700000000000001,0.85,0.8039999999999999,0.542,0.6,1.25,0.6,nano-scale,high,high
+MP0153,PE,0.05,fragment,oxidized,positive,1.0,0.81,0.85,0.8039999999999999,0.542,0.8,1.25,0.6,nano-scale,high,high
+MP0154,PE,0.05,fiber,pristine,neutral,0.23,0.6,0.85,0.374,0.43200000000000005,0.3,1.6,0.85,nano-scale,low,moderate
+MP0155,PE,0.05,fiber,pristine,negative,0.23,0.66,0.85,0.374,0.43200000000000005,0.6,1.6,0.85,nano-scale,low,high
+MP0156,PE,0.05,fiber,pristine,positive,0.23,0.7,0.85,0.374,0.43200000000000005,0.8,1.6,0.85,nano-scale,low,high
+MP0157,PE,0.05,fiber,UV-aged,neutral,0.8300000000000001,0.68,0.85,0.674,0.512,0.3,1.6,0.85,nano-scale,high,high
+MP0158,PE,0.05,fiber,UV-aged,negative,0.8300000000000001,0.7400000000000001,0.85,0.674,0.512,0.6,1.6,0.85,nano-scale,high,high
+MP0159,PE,0.05,fiber,UV-aged,positive,0.8300000000000001,0.78,0.85,0.674,0.512,0.8,1.6,0.85,nano-scale,high,high
+MP0160,PE,0.05,fiber,oxidized,neutral,1.0,0.7000000000000001,0.85,0.824,0.532,0.3,1.6,0.85,nano-scale,high,high
+MP0161,PE,0.05,fiber,oxidized,negative,1.0,0.7600000000000001,0.85,0.824,0.532,0.6,1.6,0.85,nano-scale,high,high
+MP0162,PE,0.05,fiber,oxidized,positive,1.0,0.8,0.85,0.824,0.532,0.8,1.6,0.85,nano-scale,high,high
+MP0163,PE,0.1,sphere,pristine,neutral,0.23,0.5700000000000001,0.85,0.274,0.41200000000000003,0.3,1.0,0.3,nano-scale,low,moderate
+MP0164,PE,0.1,sphere,pristine,negative,0.23,0.63,0.85,0.274,0.41200000000000003,0.6,1.0,0.3,nano-scale,low,moderate
+MP0165,PE,0.1,sphere,pristine,positive,0.23,0.67,0.85,0.274,0.41200000000000003,0.8,1.0,0.3,nano-scale,low,high
+MP0166,PE,0.1,sphere,UV-aged,neutral,0.8300000000000001,0.65,0.85,0.5740000000000001,0.49200000000000005,0.3,1.0,0.3,nano-scale,high,moderate
+MP0167,PE,0.1,sphere,UV-aged,negative,0.8300000000000001,0.7100000000000001,0.85,0.5740000000000001,0.49200000000000005,0.6,1.0,0.3,nano-scale,high,high
+MP0168,PE,0.1,sphere,UV-aged,positive,0.8300000000000001,0.75,0.85,0.5740000000000001,0.49200000000000005,0.8,1.0,0.3,nano-scale,high,high
+MP0169,PE,0.1,sphere,oxidized,neutral,1.0,0.67,0.85,0.724,0.512,0.3,1.0,0.3,nano-scale,high,high
+MP0170,PE,0.1,sphere,oxidized,negative,1.0,0.7300000000000001,0.85,0.724,0.512,0.6,1.0,0.3,nano-scale,high,high
+MP0171,PE,0.1,sphere,oxidized,positive,1.0,0.77,0.85,0.724,0.512,0.8,1.0,0.3,nano-scale,high,high
+MP0172,PE,0.1,fragment,pristine,neutral,0.23,0.61,0.85,0.35400000000000004,0.44200000000000006,0.3,1.25,0.6,nano-scale,low,moderate
+MP0173,PE,0.1,fragment,pristine,negative,0.23,0.67,0.85,0.35400000000000004,0.44200000000000006,0.6,1.25,0.6,nano-scale,low,high
+MP0174,PE,0.1,fragment,pristine,positive,0.23,0.71,0.85,0.35400000000000004,0.44200000000000006,0.8,1.25,0.6,nano-scale,low,high
+MP0175,PE,0.1,fragment,UV-aged,neutral,0.8300000000000001,0.6900000000000001,0.85,0.654,0.522,0.3,1.25,0.6,nano-scale,high,high
+MP0176,PE,0.1,fragment,UV-aged,negative,0.8300000000000001,0.7500000000000001,0.85,0.654,0.522,0.6,1.25,0.6,nano-scale,high,high
+MP0177,PE,0.1,fragment,UV-aged,positive,0.8300000000000001,0.79,0.85,0.654,0.522,0.8,1.25,0.6,nano-scale,high,high
+MP0178,PE,0.1,fragment,oxidized,neutral,1.0,0.7100000000000001,0.85,0.8039999999999999,0.542,0.3,1.25,0.6,nano-scale,high,high
+MP0179,PE,0.1,fragment,oxidized,negative,1.0,0.7700000000000001,0.85,0.8039999999999999,0.542,0.6,1.25,0.6,nano-scale,high,high
+MP0180,PE,0.1,fragment,oxidized,positive,1.0,0.81,0.85,0.8039999999999999,0.542,0.8,1.25,0.6,nano-scale,high,high
+MP0181,PE,0.1,fiber,pristine,neutral,0.23,0.6,0.85,0.374,0.43200000000000005,0.3,1.6,0.85,nano-scale,low,moderate
+MP0182,PE,0.1,fiber,pristine,negative,0.23,0.66,0.85,0.374,0.43200000000000005,0.6,1.6,0.85,nano-scale,low,high
+MP0183,PE,0.1,fiber,pristine,positive,0.23,0.7,0.85,0.374,0.43200000000000005,0.8,1.6,0.85,nano-scale,low,high
+MP0184,PE,0.1,fiber,UV-aged,neutral,0.8300000000000001,0.68,0.85,0.674,0.512,0.3,1.6,0.85,nano-scale,high,high
+MP0185,PE,0.1,fiber,UV-aged,negative,0.8300000000000001,0.7400000000000001,0.85,0.674,0.512,0.6,1.6,0.85,nano-scale,high,high
+MP0186,PE,0.1,fiber,UV-aged,positive,0.8300000000000001,0.78,0.85,0.674,0.512,0.8,1.6,0.85,nano-scale,high,high
+MP0187,PE,0.1,fiber,oxidized,neutral,1.0,0.7000000000000001,0.85,0.824,0.532,0.3,1.6,0.85,nano-scale,high,high
+MP0188,PE,0.1,fiber,oxidized,negative,1.0,0.7600000000000001,0.85,0.824,0.532,0.6,1.6,0.85,nano-scale,high,high
+MP0189,PE,0.1,fiber,oxidized,positive,1.0,0.8,0.85,0.824,0.532,0.8,1.6,0.85,nano-scale,high,high
+MP0190,PE,1.0,sphere,pristine,neutral,0.22,0.53,0.85,0.266,0.40800000000000003,0.3,1.0,0.3,submicron-to-small,low,moderate
+MP0191,PE,1.0,sphere,pristine,negative,0.22,0.59,0.85,0.266,0.40800000000000003,0.6,1.0,0.3,submicron-to-small,low,moderate
+MP0192,PE,1.0,sphere,pristine,positive,0.22,0.63,0.85,0.266,0.40800000000000003,0.8,1.0,0.3,submicron-to-small,low,moderate
+MP0193,PE,1.0,sphere,UV-aged,neutral,0.8200000000000001,0.61,0.85,0.5660000000000001,0.48800000000000004,0.3,1.0,0.3,submicron-to-small,high,moderate
+MP0194,PE,1.0,sphere,UV-aged,negative,0.8200000000000001,0.67,0.85,0.5660000000000001,0.48800000000000004,0.6,1.0,0.3,submicron-to-small,high,high
+MP0195,PE,1.0,sphere,UV-aged,positive,0.8200000000000001,0.71,0.85,0.5660000000000001,0.48800000000000004,0.8,1.0,0.3,submicron-to-small,high,high
+MP0196,PE,1.0,sphere,oxidized,neutral,1.0,0.63,0.85,0.716,0.508,0.3,1.0,0.3,submicron-to-small,high,moderate
+MP0197,PE,1.0,sphere,oxidized,negative,1.0,0.6900000000000001,0.85,0.716,0.508,0.6,1.0,0.3,submicron-to-small,high,high
+MP0198,PE,1.0,sphere,oxidized,positive,1.0,0.73,0.85,0.716,0.508,0.8,1.0,0.3,submicron-to-small,high,high
+MP0199,PE,1.0,fragment,pristine,neutral,0.22,0.57,0.85,0.34600000000000003,0.43800000000000006,0.3,1.25,0.6,submicron-to-small,low,moderate
+MP0200,PE,1.0,fragment,pristine,negative,0.22,0.63,0.85,0.34600000000000003,0.43800000000000006,0.6,1.25,0.6,submicron-to-small,low,moderate
+MP0201,PE,1.0,fragment,pristine,positive,0.22,0.6699999999999999,0.85,0.34600000000000003,0.43800000000000006,0.8,1.25,0.6,submicron-to-small,low,high
+MP0202,PE,1.0,fragment,UV-aged,neutral,0.8200000000000001,0.65,0.85,0.646,0.518,0.3,1.25,0.6,submicron-to-small,high,moderate
+MP0203,PE,1.0,fragment,UV-aged,negative,0.8200000000000001,0.7100000000000001,0.85,0.646,0.518,0.6,1.25,0.6,submicron-to-small,high,high
+MP0204,PE,1.0,fragment,UV-aged,positive,0.8200000000000001,0.75,0.85,0.646,0.518,0.8,1.25,0.6,submicron-to-small,high,high
+MP0205,PE,1.0,fragment,oxidized,neutral,1.0,0.67,0.85,0.7959999999999999,0.538,0.3,1.25,0.6,submicron-to-small,high,high
+MP0206,PE,1.0,fragment,oxidized,negative,1.0,0.7300000000000001,0.85,0.7959999999999999,0.538,0.6,1.25,0.6,submicron-to-small,high,high
+MP0207,PE,1.0,fragment,oxidized,positive,1.0,0.77,0.85,0.7959999999999999,0.538,0.8,1.25,0.6,submicron-to-small,high,high
+MP0208,PE,1.0,fiber,pristine,neutral,0.22,0.5599999999999999,0.85,0.366,0.42800000000000005,0.3,1.6,0.85,submicron-to-small,low,moderate
+MP0209,PE,1.0,fiber,pristine,negative,0.22,0.62,0.85,0.366,0.42800000000000005,0.6,1.6,0.85,submicron-to-small,low,moderate
+MP0210,PE,1.0,fiber,pristine,positive,0.22,0.6599999999999999,0.85,0.366,0.42800000000000005,0.8,1.6,0.85,submicron-to-small,low,high
+MP0211,PE,1.0,fiber,UV-aged,neutral,0.8200000000000001,0.64,0.85,0.666,0.508,0.3,1.6,0.85,submicron-to-small,high,moderate
+MP0212,PE,1.0,fiber,UV-aged,negative,0.8200000000000001,0.7000000000000001,0.85,0.666,0.508,0.6,1.6,0.85,submicron-to-small,high,high
+MP0213,PE,1.0,fiber,UV-aged,positive,0.8200000000000001,0.74,0.85,0.666,0.508,0.8,1.6,0.85,submicron-to-small,high,high
+MP0214,PE,1.0,fiber,oxidized,neutral,1.0,0.66,0.85,0.816,0.528,0.3,1.6,0.85,submicron-to-small,high,high
+MP0215,PE,1.0,fiber,oxidized,negative,1.0,0.7200000000000001,0.85,0.816,0.528,0.6,1.6,0.85,submicron-to-small,high,high
+MP0216,PE,1.0,fiber,oxidized,positive,1.0,0.76,0.85,0.816,0.528,0.8,1.6,0.85,submicron-to-small,high,high
+MP0217,PE,5.0,sphere,pristine,neutral,0.21000000000000002,0.49,0.85,0.258,0.404,0.3,1.0,0.3,small microplastic,low,moderate
+MP0218,PE,5.0,sphere,pristine,negative,0.21000000000000002,0.55,0.85,0.258,0.404,0.6,1.0,0.3,small microplastic,low,moderate
+MP0219,PE,5.0,sphere,pristine,positive,0.21000000000000002,0.5900000000000001,0.85,0.258,0.404,0.8,1.0,0.3,small microplastic,low,moderate
+MP0220,PE,5.0,sphere,UV-aged,neutral,0.81,0.5700000000000001,0.85,0.558,0.48400000000000004,0.3,1.0,0.3,small microplastic,high,moderate
+MP0221,PE,5.0,sphere,UV-aged,negative,0.81,0.6300000000000001,0.85,0.558,0.48400000000000004,0.6,1.0,0.3,small microplastic,high,moderate
+MP0222,PE,5.0,sphere,UV-aged,positive,0.81,0.67,0.85,0.558,0.48400000000000004,0.8,1.0,0.3,small microplastic,high,high
+MP0223,PE,5.0,sphere,oxidized,neutral,1.0,0.5900000000000001,0.85,0.708,0.504,0.3,1.0,0.3,small microplastic,high,moderate
+MP0224,PE,5.0,sphere,oxidized,negative,1.0,0.6500000000000001,0.85,0.708,0.504,0.6,1.0,0.3,small microplastic,high,high
+MP0225,PE,5.0,sphere,oxidized,positive,1.0,0.6900000000000001,0.85,0.708,0.504,0.8,1.0,0.3,small microplastic,high,high
+MP0226,PE,5.0,fragment,pristine,neutral,0.21000000000000002,0.53,0.85,0.338,0.43400000000000005,0.3,1.25,0.6,small microplastic,low,moderate
+MP0227,PE,5.0,fragment,pristine,negative,0.21000000000000002,0.5900000000000001,0.85,0.338,0.43400000000000005,0.6,1.25,0.6,small microplastic,low,moderate
+MP0228,PE,5.0,fragment,pristine,positive,0.21000000000000002,0.63,0.85,0.338,0.43400000000000005,0.8,1.25,0.6,small microplastic,low,moderate
+MP0229,PE,5.0,fragment,UV-aged,neutral,0.81,0.6100000000000001,0.85,0.638,0.514,0.3,1.25,0.6,small microplastic,high,moderate
+MP0230,PE,5.0,fragment,UV-aged,negative,0.81,0.6700000000000002,0.85,0.638,0.514,0.6,1.25,0.6,small microplastic,high,high
+MP0231,PE,5.0,fragment,UV-aged,positive,0.81,0.7100000000000001,0.85,0.638,0.514,0.8,1.25,0.6,small microplastic,high,high
+MP0232,PE,5.0,fragment,oxidized,neutral,1.0,0.6300000000000001,0.85,0.7879999999999999,0.534,0.3,1.25,0.6,small microplastic,high,moderate
+MP0233,PE,5.0,fragment,oxidized,negative,1.0,0.6900000000000002,0.85,0.7879999999999999,0.534,0.6,1.25,0.6,small microplastic,high,high
+MP0234,PE,5.0,fragment,oxidized,positive,1.0,0.7300000000000001,0.85,0.7879999999999999,0.534,0.8,1.25,0.6,small microplastic,high,high
+MP0235,PE,5.0,fiber,pristine,neutral,0.21000000000000002,0.52,0.85,0.358,0.42400000000000004,0.3,1.6,0.85,small microplastic,low,moderate
+MP0236,PE,5.0,fiber,pristine,negative,0.21000000000000002,0.5800000000000001,0.85,0.358,0.42400000000000004,0.6,1.6,0.85,small microplastic,low,moderate
+MP0237,PE,5.0,fiber,pristine,positive,0.21000000000000002,0.62,0.85,0.358,0.42400000000000004,0.8,1.6,0.85,small microplastic,low,moderate
+MP0238,PE,5.0,fiber,UV-aged,neutral,0.81,0.6000000000000001,0.85,0.658,0.504,0.3,1.6,0.85,small microplastic,high,moderate
+MP0239,PE,5.0,fiber,UV-aged,negative,0.81,0.6600000000000001,0.85,0.658,0.504,0.6,1.6,0.85,small microplastic,high,high
+MP0240,PE,5.0,fiber,UV-aged,positive,0.81,0.7000000000000001,0.85,0.658,0.504,0.8,1.6,0.85,small microplastic,high,high
+MP0241,PE,5.0,fiber,oxidized,neutral,1.0,0.6200000000000001,0.85,0.8079999999999999,0.524,0.3,1.6,0.85,small microplastic,high,moderate
+MP0242,PE,5.0,fiber,oxidized,negative,1.0,0.6800000000000002,0.85,0.8079999999999999,0.524,0.6,1.6,0.85,small microplastic,high,high
+MP0243,PE,5.0,fiber,oxidized,positive,1.0,0.7200000000000001,0.85,0.8079999999999999,0.524,0.8,1.6,0.85,small microplastic,high,high
+MP0244,PE,10.0,sphere,pristine,neutral,0.2,0.45,0.85,0.25,0.4,0.3,1.0,0.3,larger microplastic,low,moderate
+MP0245,PE,10.0,sphere,pristine,negative,0.2,0.51,0.85,0.25,0.4,0.6,1.0,0.3,larger microplastic,low,moderate
+MP0246,PE,10.0,sphere,pristine,positive,0.2,0.55,0.85,0.25,0.4,0.8,1.0,0.3,larger microplastic,low,moderate
+MP0247,PE,10.0,sphere,UV-aged,neutral,0.8,0.53,0.85,0.55,0.48000000000000004,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0248,PE,10.0,sphere,UV-aged,negative,0.8,0.5900000000000001,0.85,0.55,0.48000000000000004,0.6,1.0,0.3,larger microplastic,high,moderate
+MP0249,PE,10.0,sphere,UV-aged,positive,0.8,0.63,0.85,0.55,0.48000000000000004,0.8,1.0,0.3,larger microplastic,high,moderate
+MP0250,PE,10.0,sphere,oxidized,neutral,1.0,0.55,0.85,0.7,0.5,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0251,PE,10.0,sphere,oxidized,negative,1.0,0.6100000000000001,0.85,0.7,0.5,0.6,1.0,0.3,larger microplastic,high,moderate
+MP0252,PE,10.0,sphere,oxidized,positive,1.0,0.65,0.85,0.7,0.5,0.8,1.0,0.3,larger microplastic,high,moderate
+MP0253,PE,10.0,fragment,pristine,neutral,0.2,0.49,0.85,0.33,0.43000000000000005,0.3,1.25,0.6,larger microplastic,low,moderate
+MP0254,PE,10.0,fragment,pristine,negative,0.2,0.55,0.85,0.33,0.43000000000000005,0.6,1.25,0.6,larger microplastic,low,moderate
+MP0255,PE,10.0,fragment,pristine,positive,0.2,0.59,0.85,0.33,0.43000000000000005,0.8,1.25,0.6,larger microplastic,low,moderate
+MP0256,PE,10.0,fragment,UV-aged,neutral,0.8,0.5700000000000001,0.85,0.63,0.51,0.3,1.25,0.6,larger microplastic,high,moderate
+MP0257,PE,10.0,fragment,UV-aged,negative,0.8,0.6300000000000001,0.85,0.63,0.51,0.6,1.25,0.6,larger microplastic,high,moderate
+MP0258,PE,10.0,fragment,UV-aged,positive,0.8,0.67,0.85,0.63,0.51,0.8,1.25,0.6,larger microplastic,high,high
+MP0259,PE,10.0,fragment,oxidized,neutral,1.0,0.5900000000000001,0.85,0.7799999999999999,0.53,0.3,1.25,0.6,larger microplastic,high,moderate
+MP0260,PE,10.0,fragment,oxidized,negative,1.0,0.6500000000000001,0.85,0.7799999999999999,0.53,0.6,1.25,0.6,larger microplastic,high,high
+MP0261,PE,10.0,fragment,oxidized,positive,1.0,0.6900000000000001,0.85,0.7799999999999999,0.53,0.8,1.25,0.6,larger microplastic,high,high
+MP0262,PE,10.0,fiber,pristine,neutral,0.2,0.48,0.85,0.35,0.42000000000000004,0.3,1.6,0.85,larger microplastic,low,moderate
+MP0263,PE,10.0,fiber,pristine,negative,0.2,0.54,0.85,0.35,0.42000000000000004,0.6,1.6,0.85,larger microplastic,low,moderate
+MP0264,PE,10.0,fiber,pristine,positive,0.2,0.58,0.85,0.35,0.42000000000000004,0.8,1.6,0.85,larger microplastic,low,moderate
+MP0265,PE,10.0,fiber,UV-aged,neutral,0.8,0.56,0.85,0.65,0.5,0.3,1.6,0.85,larger microplastic,high,moderate
+MP0266,PE,10.0,fiber,UV-aged,negative,0.8,0.6200000000000001,0.85,0.65,0.5,0.6,1.6,0.85,larger microplastic,high,moderate
+MP0267,PE,10.0,fiber,UV-aged,positive,0.8,0.66,0.85,0.65,0.5,0.8,1.6,0.85,larger microplastic,high,high
+MP0268,PE,10.0,fiber,oxidized,neutral,1.0,0.5800000000000001,0.85,0.7999999999999999,0.52,0.3,1.6,0.85,larger microplastic,high,moderate
+MP0269,PE,10.0,fiber,oxidized,negative,1.0,0.6400000000000001,0.85,0.7999999999999999,0.52,0.6,1.6,0.85,larger microplastic,high,moderate
+MP0270,PE,10.0,fiber,oxidized,positive,1.0,0.68,0.85,0.7999999999999999,0.52,0.8,1.6,0.85,larger microplastic,high,high
+MP0271,PP,0.05,sphere,pristine,neutral,0.23,0.5700000000000001,0.8,0.274,0.462,0.3,1.0,0.3,nano-scale,low,moderate
+MP0272,PP,0.05,sphere,pristine,negative,0.23,0.63,0.8,0.274,0.462,0.6,1.0,0.3,nano-scale,low,moderate
+MP0273,PP,0.05,sphere,pristine,positive,0.23,0.67,0.8,0.274,0.462,0.8,1.0,0.3,nano-scale,low,high
+MP0274,PP,0.05,sphere,UV-aged,neutral,0.8300000000000001,0.65,0.8,0.5740000000000001,0.542,0.3,1.0,0.3,nano-scale,high,moderate
+MP0275,PP,0.05,sphere,UV-aged,negative,0.8300000000000001,0.7100000000000001,0.8,0.5740000000000001,0.542,0.6,1.0,0.3,nano-scale,high,high
+MP0276,PP,0.05,sphere,UV-aged,positive,0.8300000000000001,0.75,0.8,0.5740000000000001,0.542,0.8,1.0,0.3,nano-scale,high,high
+MP0277,PP,0.05,sphere,oxidized,neutral,1.0,0.67,0.8,0.724,0.562,0.3,1.0,0.3,nano-scale,high,high
+MP0278,PP,0.05,sphere,oxidized,negative,1.0,0.7300000000000001,0.8,0.724,0.562,0.6,1.0,0.3,nano-scale,high,high
+MP0279,PP,0.05,sphere,oxidized,positive,1.0,0.77,0.8,0.724,0.562,0.8,1.0,0.3,nano-scale,high,high
+MP0280,PP,0.05,fragment,pristine,neutral,0.23,0.61,0.8,0.35400000000000004,0.492,0.3,1.25,0.6,nano-scale,low,moderate
+MP0281,PP,0.05,fragment,pristine,negative,0.23,0.67,0.8,0.35400000000000004,0.492,0.6,1.25,0.6,nano-scale,low,high
+MP0282,PP,0.05,fragment,pristine,positive,0.23,0.71,0.8,0.35400000000000004,0.492,0.8,1.25,0.6,nano-scale,low,high
+MP0283,PP,0.05,fragment,UV-aged,neutral,0.8300000000000001,0.6900000000000001,0.8,0.654,0.5720000000000001,0.3,1.25,0.6,nano-scale,high,high
+MP0284,PP,0.05,fragment,UV-aged,negative,0.8300000000000001,0.7500000000000001,0.8,0.654,0.5720000000000001,0.6,1.25,0.6,nano-scale,high,high
+MP0285,PP,0.05,fragment,UV-aged,positive,0.8300000000000001,0.79,0.8,0.654,0.5720000000000001,0.8,1.25,0.6,nano-scale,high,high
+MP0286,PP,0.05,fragment,oxidized,neutral,1.0,0.7100000000000001,0.8,0.8039999999999999,0.5920000000000001,0.3,1.25,0.6,nano-scale,high,high
+MP0287,PP,0.05,fragment,oxidized,negative,1.0,0.7700000000000001,0.8,0.8039999999999999,0.5920000000000001,0.6,1.25,0.6,nano-scale,high,high
+MP0288,PP,0.05,fragment,oxidized,positive,1.0,0.81,0.8,0.8039999999999999,0.5920000000000001,0.8,1.25,0.6,nano-scale,high,high
+MP0289,PP,0.05,fiber,pristine,neutral,0.23,0.6,0.8,0.374,0.48200000000000004,0.3,1.6,0.85,nano-scale,low,moderate
+MP0290,PP,0.05,fiber,pristine,negative,0.23,0.66,0.8,0.374,0.48200000000000004,0.6,1.6,0.85,nano-scale,low,high
+MP0291,PP,0.05,fiber,pristine,positive,0.23,0.7,0.8,0.374,0.48200000000000004,0.8,1.6,0.85,nano-scale,low,high
+MP0292,PP,0.05,fiber,UV-aged,neutral,0.8300000000000001,0.68,0.8,0.674,0.562,0.3,1.6,0.85,nano-scale,high,high
+MP0293,PP,0.05,fiber,UV-aged,negative,0.8300000000000001,0.7400000000000001,0.8,0.674,0.562,0.6,1.6,0.85,nano-scale,high,high
+MP0294,PP,0.05,fiber,UV-aged,positive,0.8300000000000001,0.78,0.8,0.674,0.562,0.8,1.6,0.85,nano-scale,high,high
+MP0295,PP,0.05,fiber,oxidized,neutral,1.0,0.7000000000000001,0.8,0.824,0.5820000000000001,0.3,1.6,0.85,nano-scale,high,high
+MP0296,PP,0.05,fiber,oxidized,negative,1.0,0.7600000000000001,0.8,0.824,0.5820000000000001,0.6,1.6,0.85,nano-scale,high,high
+MP0297,PP,0.05,fiber,oxidized,positive,1.0,0.8,0.8,0.824,0.5820000000000001,0.8,1.6,0.85,nano-scale,high,high
+MP0298,PP,0.1,sphere,pristine,neutral,0.23,0.5700000000000001,0.8,0.274,0.462,0.3,1.0,0.3,nano-scale,low,moderate
+MP0299,PP,0.1,sphere,pristine,negative,0.23,0.63,0.8,0.274,0.462,0.6,1.0,0.3,nano-scale,low,moderate
+MP0300,PP,0.1,sphere,pristine,positive,0.23,0.67,0.8,0.274,0.462,0.8,1.0,0.3,nano-scale,low,high
+MP0301,PP,0.1,sphere,UV-aged,neutral,0.8300000000000001,0.65,0.8,0.5740000000000001,0.542,0.3,1.0,0.3,nano-scale,high,moderate
+MP0302,PP,0.1,sphere,UV-aged,negative,0.8300000000000001,0.7100000000000001,0.8,0.5740000000000001,0.542,0.6,1.0,0.3,nano-scale,high,high
+MP0303,PP,0.1,sphere,UV-aged,positive,0.8300000000000001,0.75,0.8,0.5740000000000001,0.542,0.8,1.0,0.3,nano-scale,high,high
+MP0304,PP,0.1,sphere,oxidized,neutral,1.0,0.67,0.8,0.724,0.562,0.3,1.0,0.3,nano-scale,high,high
+MP0305,PP,0.1,sphere,oxidized,negative,1.0,0.7300000000000001,0.8,0.724,0.562,0.6,1.0,0.3,nano-scale,high,high
+MP0306,PP,0.1,sphere,oxidized,positive,1.0,0.77,0.8,0.724,0.562,0.8,1.0,0.3,nano-scale,high,high
+MP0307,PP,0.1,fragment,pristine,neutral,0.23,0.61,0.8,0.35400000000000004,0.492,0.3,1.25,0.6,nano-scale,low,moderate
+MP0308,PP,0.1,fragment,pristine,negative,0.23,0.67,0.8,0.35400000000000004,0.492,0.6,1.25,0.6,nano-scale,low,high
+MP0309,PP,0.1,fragment,pristine,positive,0.23,0.71,0.8,0.35400000000000004,0.492,0.8,1.25,0.6,nano-scale,low,high
+MP0310,PP,0.1,fragment,UV-aged,neutral,0.8300000000000001,0.6900000000000001,0.8,0.654,0.5720000000000001,0.3,1.25,0.6,nano-scale,high,high
+MP0311,PP,0.1,fragment,UV-aged,negative,0.8300000000000001,0.7500000000000001,0.8,0.654,0.5720000000000001,0.6,1.25,0.6,nano-scale,high,high
+MP0312,PP,0.1,fragment,UV-aged,positive,0.8300000000000001,0.79,0.8,0.654,0.5720000000000001,0.8,1.25,0.6,nano-scale,high,high
+MP0313,PP,0.1,fragment,oxidized,neutral,1.0,0.7100000000000001,0.8,0.8039999999999999,0.5920000000000001,0.3,1.25,0.6,nano-scale,high,high
+MP0314,PP,0.1,fragment,oxidized,negative,1.0,0.7700000000000001,0.8,0.8039999999999999,0.5920000000000001,0.6,1.25,0.6,nano-scale,high,high
+MP0315,PP,0.1,fragment,oxidized,positive,1.0,0.81,0.8,0.8039999999999999,0.5920000000000001,0.8,1.25,0.6,nano-scale,high,high
+MP0316,PP,0.1,fiber,pristine,neutral,0.23,0.6,0.8,0.374,0.48200000000000004,0.3,1.6,0.85,nano-scale,low,moderate
+MP0317,PP,0.1,fiber,pristine,negative,0.23,0.66,0.8,0.374,0.48200000000000004,0.6,1.6,0.85,nano-scale,low,high
+MP0318,PP,0.1,fiber,pristine,positive,0.23,0.7,0.8,0.374,0.48200000000000004,0.8,1.6,0.85,nano-scale,low,high
+MP0319,PP,0.1,fiber,UV-aged,neutral,0.8300000000000001,0.68,0.8,0.674,0.562,0.3,1.6,0.85,nano-scale,high,high
+MP0320,PP,0.1,fiber,UV-aged,negative,0.8300000000000001,0.7400000000000001,0.8,0.674,0.562,0.6,1.6,0.85,nano-scale,high,high
+MP0321,PP,0.1,fiber,UV-aged,positive,0.8300000000000001,0.78,0.8,0.674,0.562,0.8,1.6,0.85,nano-scale,high,high
+MP0322,PP,0.1,fiber,oxidized,neutral,1.0,0.7000000000000001,0.8,0.824,0.5820000000000001,0.3,1.6,0.85,nano-scale,high,high
+MP0323,PP,0.1,fiber,oxidized,negative,1.0,0.7600000000000001,0.8,0.824,0.5820000000000001,0.6,1.6,0.85,nano-scale,high,high
+MP0324,PP,0.1,fiber,oxidized,positive,1.0,0.8,0.8,0.824,0.5820000000000001,0.8,1.6,0.85,nano-scale,high,high
+MP0325,PP,1.0,sphere,pristine,neutral,0.22,0.53,0.8,0.266,0.458,0.3,1.0,0.3,submicron-to-small,low,moderate
+MP0326,PP,1.0,sphere,pristine,negative,0.22,0.59,0.8,0.266,0.458,0.6,1.0,0.3,submicron-to-small,low,moderate
+MP0327,PP,1.0,sphere,pristine,positive,0.22,0.63,0.8,0.266,0.458,0.8,1.0,0.3,submicron-to-small,low,moderate
+MP0328,PP,1.0,sphere,UV-aged,neutral,0.8200000000000001,0.61,0.8,0.5660000000000001,0.538,0.3,1.0,0.3,submicron-to-small,high,moderate
+MP0329,PP,1.0,sphere,UV-aged,negative,0.8200000000000001,0.67,0.8,0.5660000000000001,0.538,0.6,1.0,0.3,submicron-to-small,high,high
+MP0330,PP,1.0,sphere,UV-aged,positive,0.8200000000000001,0.71,0.8,0.5660000000000001,0.538,0.8,1.0,0.3,submicron-to-small,high,high
+MP0331,PP,1.0,sphere,oxidized,neutral,1.0,0.63,0.8,0.716,0.558,0.3,1.0,0.3,submicron-to-small,high,moderate
+MP0332,PP,1.0,sphere,oxidized,negative,1.0,0.6900000000000001,0.8,0.716,0.558,0.6,1.0,0.3,submicron-to-small,high,high
+MP0333,PP,1.0,sphere,oxidized,positive,1.0,0.73,0.8,0.716,0.558,0.8,1.0,0.3,submicron-to-small,high,high
+MP0334,PP,1.0,fragment,pristine,neutral,0.22,0.57,0.8,0.34600000000000003,0.488,0.3,1.25,0.6,submicron-to-small,low,moderate
+MP0335,PP,1.0,fragment,pristine,negative,0.22,0.63,0.8,0.34600000000000003,0.488,0.6,1.25,0.6,submicron-to-small,low,moderate
+MP0336,PP,1.0,fragment,pristine,positive,0.22,0.6699999999999999,0.8,0.34600000000000003,0.488,0.8,1.25,0.6,submicron-to-small,low,high
+MP0337,PP,1.0,fragment,UV-aged,neutral,0.8200000000000001,0.65,0.8,0.646,0.5680000000000001,0.3,1.25,0.6,submicron-to-small,high,moderate
+MP0338,PP,1.0,fragment,UV-aged,negative,0.8200000000000001,0.7100000000000001,0.8,0.646,0.5680000000000001,0.6,1.25,0.6,submicron-to-small,high,high
+MP0339,PP,1.0,fragment,UV-aged,positive,0.8200000000000001,0.75,0.8,0.646,0.5680000000000001,0.8,1.25,0.6,submicron-to-small,high,high
+MP0340,PP,1.0,fragment,oxidized,neutral,1.0,0.67,0.8,0.7959999999999999,0.5880000000000001,0.3,1.25,0.6,submicron-to-small,high,high
+MP0341,PP,1.0,fragment,oxidized,negative,1.0,0.7300000000000001,0.8,0.7959999999999999,0.5880000000000001,0.6,1.25,0.6,submicron-to-small,high,high
+MP0342,PP,1.0,fragment,oxidized,positive,1.0,0.77,0.8,0.7959999999999999,0.5880000000000001,0.8,1.25,0.6,submicron-to-small,high,high
+MP0343,PP,1.0,fiber,pristine,neutral,0.22,0.5599999999999999,0.8,0.366,0.47800000000000004,0.3,1.6,0.85,submicron-to-small,low,moderate
+MP0344,PP,1.0,fiber,pristine,negative,0.22,0.62,0.8,0.366,0.47800000000000004,0.6,1.6,0.85,submicron-to-small,low,moderate
+MP0345,PP,1.0,fiber,pristine,positive,0.22,0.6599999999999999,0.8,0.366,0.47800000000000004,0.8,1.6,0.85,submicron-to-small,low,high
+MP0346,PP,1.0,fiber,UV-aged,neutral,0.8200000000000001,0.64,0.8,0.666,0.558,0.3,1.6,0.85,submicron-to-small,high,moderate
+MP0347,PP,1.0,fiber,UV-aged,negative,0.8200000000000001,0.7000000000000001,0.8,0.666,0.558,0.6,1.6,0.85,submicron-to-small,high,high
+MP0348,PP,1.0,fiber,UV-aged,positive,0.8200000000000001,0.74,0.8,0.666,0.558,0.8,1.6,0.85,submicron-to-small,high,high
+MP0349,PP,1.0,fiber,oxidized,neutral,1.0,0.66,0.8,0.816,0.5780000000000001,0.3,1.6,0.85,submicron-to-small,high,high
+MP0350,PP,1.0,fiber,oxidized,negative,1.0,0.7200000000000001,0.8,0.816,0.5780000000000001,0.6,1.6,0.85,submicron-to-small,high,high
+MP0351,PP,1.0,fiber,oxidized,positive,1.0,0.76,0.8,0.816,0.5780000000000001,0.8,1.6,0.85,submicron-to-small,high,high
+MP0352,PP,5.0,sphere,pristine,neutral,0.21000000000000002,0.49,0.8,0.258,0.454,0.3,1.0,0.3,small microplastic,low,moderate
+MP0353,PP,5.0,sphere,pristine,negative,0.21000000000000002,0.55,0.8,0.258,0.454,0.6,1.0,0.3,small microplastic,low,moderate
+MP0354,PP,5.0,sphere,pristine,positive,0.21000000000000002,0.5900000000000001,0.8,0.258,0.454,0.8,1.0,0.3,small microplastic,low,moderate
+MP0355,PP,5.0,sphere,UV-aged,neutral,0.81,0.5700000000000001,0.8,0.558,0.534,0.3,1.0,0.3,small microplastic,high,moderate
+MP0356,PP,5.0,sphere,UV-aged,negative,0.81,0.6300000000000001,0.8,0.558,0.534,0.6,1.0,0.3,small microplastic,high,moderate
+MP0357,PP,5.0,sphere,UV-aged,positive,0.81,0.67,0.8,0.558,0.534,0.8,1.0,0.3,small microplastic,high,high
+MP0358,PP,5.0,sphere,oxidized,neutral,1.0,0.5900000000000001,0.8,0.708,0.554,0.3,1.0,0.3,small microplastic,high,moderate
+MP0359,PP,5.0,sphere,oxidized,negative,1.0,0.6500000000000001,0.8,0.708,0.554,0.6,1.0,0.3,small microplastic,high,high
+MP0360,PP,5.0,sphere,oxidized,positive,1.0,0.6900000000000001,0.8,0.708,0.554,0.8,1.0,0.3,small microplastic,high,high
+MP0361,PP,5.0,fragment,pristine,neutral,0.21000000000000002,0.53,0.8,0.338,0.484,0.3,1.25,0.6,small microplastic,low,moderate
+MP0362,PP,5.0,fragment,pristine,negative,0.21000000000000002,0.5900000000000001,0.8,0.338,0.484,0.6,1.25,0.6,small microplastic,low,moderate
+MP0363,PP,5.0,fragment,pristine,positive,0.21000000000000002,0.63,0.8,0.338,0.484,0.8,1.25,0.6,small microplastic,low,moderate
+MP0364,PP,5.0,fragment,UV-aged,neutral,0.81,0.6100000000000001,0.8,0.638,0.5640000000000001,0.3,1.25,0.6,small microplastic,high,moderate
+MP0365,PP,5.0,fragment,UV-aged,negative,0.81,0.6700000000000002,0.8,0.638,0.5640000000000001,0.6,1.25,0.6,small microplastic,high,high
+MP0366,PP,5.0,fragment,UV-aged,positive,0.81,0.7100000000000001,0.8,0.638,0.5640000000000001,0.8,1.25,0.6,small microplastic,high,high
+MP0367,PP,5.0,fragment,oxidized,neutral,1.0,0.6300000000000001,0.8,0.7879999999999999,0.5840000000000001,0.3,1.25,0.6,small microplastic,high,moderate
+MP0368,PP,5.0,fragment,oxidized,negative,1.0,0.6900000000000002,0.8,0.7879999999999999,0.5840000000000001,0.6,1.25,0.6,small microplastic,high,high
+MP0369,PP,5.0,fragment,oxidized,positive,1.0,0.7300000000000001,0.8,0.7879999999999999,0.5840000000000001,0.8,1.25,0.6,small microplastic,high,high
+MP0370,PP,5.0,fiber,pristine,neutral,0.21000000000000002,0.52,0.8,0.358,0.47400000000000003,0.3,1.6,0.85,small microplastic,low,moderate
+MP0371,PP,5.0,fiber,pristine,negative,0.21000000000000002,0.5800000000000001,0.8,0.358,0.47400000000000003,0.6,1.6,0.85,small microplastic,low,moderate
+MP0372,PP,5.0,fiber,pristine,positive,0.21000000000000002,0.62,0.8,0.358,0.47400000000000003,0.8,1.6,0.85,small microplastic,low,moderate
+MP0373,PP,5.0,fiber,UV-aged,neutral,0.81,0.6000000000000001,0.8,0.658,0.554,0.3,1.6,0.85,small microplastic,high,moderate
+MP0374,PP,5.0,fiber,UV-aged,negative,0.81,0.6600000000000001,0.8,0.658,0.554,0.6,1.6,0.85,small microplastic,high,high
+MP0375,PP,5.0,fiber,UV-aged,positive,0.81,0.7000000000000001,0.8,0.658,0.554,0.8,1.6,0.85,small microplastic,high,high
+MP0376,PP,5.0,fiber,oxidized,neutral,1.0,0.6200000000000001,0.8,0.8079999999999999,0.5740000000000001,0.3,1.6,0.85,small microplastic,high,moderate
+MP0377,PP,5.0,fiber,oxidized,negative,1.0,0.6800000000000002,0.8,0.8079999999999999,0.5740000000000001,0.6,1.6,0.85,small microplastic,high,high
+MP0378,PP,5.0,fiber,oxidized,positive,1.0,0.7200000000000001,0.8,0.8079999999999999,0.5740000000000001,0.8,1.6,0.85,small microplastic,high,high
+MP0379,PP,10.0,sphere,pristine,neutral,0.2,0.45,0.8,0.25,0.45,0.3,1.0,0.3,larger microplastic,low,moderate
+MP0380,PP,10.0,sphere,pristine,negative,0.2,0.51,0.8,0.25,0.45,0.6,1.0,0.3,larger microplastic,low,moderate
+MP0381,PP,10.0,sphere,pristine,positive,0.2,0.55,0.8,0.25,0.45,0.8,1.0,0.3,larger microplastic,low,moderate
+MP0382,PP,10.0,sphere,UV-aged,neutral,0.8,0.53,0.8,0.55,0.53,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0383,PP,10.0,sphere,UV-aged,negative,0.8,0.5900000000000001,0.8,0.55,0.53,0.6,1.0,0.3,larger microplastic,high,moderate
+MP0384,PP,10.0,sphere,UV-aged,positive,0.8,0.63,0.8,0.55,0.53,0.8,1.0,0.3,larger microplastic,high,moderate
+MP0385,PP,10.0,sphere,oxidized,neutral,1.0,0.55,0.8,0.7,0.55,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0386,PP,10.0,sphere,oxidized,negative,1.0,0.6100000000000001,0.8,0.7,0.55,0.6,1.0,0.3,larger microplastic,high,moderate
+MP0387,PP,10.0,sphere,oxidized,positive,1.0,0.65,0.8,0.7,0.55,0.8,1.0,0.3,larger microplastic,high,moderate
+MP0388,PP,10.0,fragment,pristine,neutral,0.2,0.49,0.8,0.33,0.48,0.3,1.25,0.6,larger microplastic,low,moderate
+MP0389,PP,10.0,fragment,pristine,negative,0.2,0.55,0.8,0.33,0.48,0.6,1.25,0.6,larger microplastic,low,moderate
+MP0390,PP,10.0,fragment,pristine,positive,0.2,0.59,0.8,0.33,0.48,0.8,1.25,0.6,larger microplastic,low,moderate
+MP0391,PP,10.0,fragment,UV-aged,neutral,0.8,0.5700000000000001,0.8,0.63,0.56,0.3,1.25,0.6,larger microplastic,high,moderate
+MP0392,PP,10.0,fragment,UV-aged,negative,0.8,0.6300000000000001,0.8,0.63,0.56,0.6,1.25,0.6,larger microplastic,high,moderate
+MP0393,PP,10.0,fragment,UV-aged,positive,0.8,0.67,0.8,0.63,0.56,0.8,1.25,0.6,larger microplastic,high,high
+MP0394,PP,10.0,fragment,oxidized,neutral,1.0,0.5900000000000001,0.8,0.7799999999999999,0.5800000000000001,0.3,1.25,0.6,larger microplastic,high,moderate
+MP0395,PP,10.0,fragment,oxidized,negative,1.0,0.6500000000000001,0.8,0.7799999999999999,0.5800000000000001,0.6,1.25,0.6,larger microplastic,high,high
+MP0396,PP,10.0,fragment,oxidized,positive,1.0,0.6900000000000001,0.8,0.7799999999999999,0.5800000000000001,0.8,1.25,0.6,larger microplastic,high,high
+MP0397,PP,10.0,fiber,pristine,neutral,0.2,0.48,0.8,0.35,0.47000000000000003,0.3,1.6,0.85,larger microplastic,low,moderate
+MP0398,PP,10.0,fiber,pristine,negative,0.2,0.54,0.8,0.35,0.47000000000000003,0.6,1.6,0.85,larger microplastic,low,moderate
+MP0399,PP,10.0,fiber,pristine,positive,0.2,0.58,0.8,0.35,0.47000000000000003,0.8,1.6,0.85,larger microplastic,low,moderate
+MP0400,PP,10.0,fiber,UV-aged,neutral,0.8,0.56,0.8,0.65,0.55,0.3,1.6,0.85,larger microplastic,high,moderate
+MP0401,PP,10.0,fiber,UV-aged,negative,0.8,0.6200000000000001,0.8,0.65,0.55,0.6,1.6,0.85,larger microplastic,high,moderate
+MP0402,PP,10.0,fiber,UV-aged,positive,0.8,0.66,0.8,0.65,0.55,0.8,1.6,0.85,larger microplastic,high,high
+MP0403,PP,10.0,fiber,oxidized,neutral,1.0,0.5800000000000001,0.8,0.7999999999999999,0.5700000000000001,0.3,1.6,0.85,larger microplastic,high,moderate
+MP0404,PP,10.0,fiber,oxidized,negative,1.0,0.6400000000000001,0.8,0.7999999999999999,0.5700000000000001,0.6,1.6,0.85,larger microplastic,high,moderate
+MP0405,PP,10.0,fiber,oxidized,positive,1.0,0.68,0.8,0.7999999999999999,0.5700000000000001,0.8,1.6,0.85,larger microplastic,high,high
+MP0406,PS,0.05,sphere,pristine,neutral,0.23,0.72,0.7,0.274,0.662,0.3,1.0,0.3,nano-scale,low,high
+MP0407,PS,0.05,sphere,pristine,negative,0.23,0.7799999999999999,0.7,0.274,0.662,0.6,1.0,0.3,nano-scale,low,high
+MP0408,PS,0.05,sphere,pristine,positive,0.23,0.82,0.7,0.274,0.662,0.8,1.0,0.3,nano-scale,low,high
+MP0409,PS,0.05,sphere,UV-aged,neutral,0.8300000000000001,0.7999999999999999,0.7,0.5740000000000001,0.742,0.3,1.0,0.3,nano-scale,high,high
+MP0410,PS,0.05,sphere,UV-aged,negative,0.8300000000000001,0.86,0.7,0.5740000000000001,0.742,0.6,1.0,0.3,nano-scale,high,high
+MP0411,PS,0.05,sphere,UV-aged,positive,0.8300000000000001,0.8999999999999999,0.7,0.5740000000000001,0.742,0.8,1.0,0.3,nano-scale,high,high
+MP0412,PS,0.05,sphere,oxidized,neutral,1.0,0.82,0.7,0.724,0.762,0.3,1.0,0.3,nano-scale,high,high
+MP0413,PS,0.05,sphere,oxidized,negative,1.0,0.88,0.7,0.724,0.762,0.6,1.0,0.3,nano-scale,high,high
+MP0414,PS,0.05,sphere,oxidized,positive,1.0,0.9199999999999999,0.7,0.724,0.762,0.8,1.0,0.3,nano-scale,high,high
+MP0415,PS,0.05,fragment,pristine,neutral,0.23,0.76,0.7,0.35400000000000004,0.6920000000000001,0.3,1.25,0.6,nano-scale,low,high
+MP0416,PS,0.05,fragment,pristine,negative,0.23,0.82,0.7,0.35400000000000004,0.6920000000000001,0.6,1.25,0.6,nano-scale,low,high
+MP0417,PS,0.05,fragment,pristine,positive,0.23,0.86,0.7,0.35400000000000004,0.6920000000000001,0.8,1.25,0.6,nano-scale,low,high
+MP0418,PS,0.05,fragment,UV-aged,neutral,0.8300000000000001,0.84,0.7,0.654,0.772,0.3,1.25,0.6,nano-scale,high,high
+MP0419,PS,0.05,fragment,UV-aged,negative,0.8300000000000001,0.9,0.7,0.654,0.772,0.6,1.25,0.6,nano-scale,high,high
+MP0420,PS,0.05,fragment,UV-aged,positive,0.8300000000000001,0.94,0.7,0.654,0.772,0.8,1.25,0.6,nano-scale,high,high
+MP0421,PS,0.05,fragment,oxidized,neutral,1.0,0.86,0.7,0.8039999999999999,0.792,0.3,1.25,0.6,nano-scale,high,high
+MP0422,PS,0.05,fragment,oxidized,negative,1.0,0.92,0.7,0.8039999999999999,0.792,0.6,1.25,0.6,nano-scale,high,high
+MP0423,PS,0.05,fragment,oxidized,positive,1.0,0.96,0.7,0.8039999999999999,0.792,0.8,1.25,0.6,nano-scale,high,high
+MP0424,PS,0.05,fiber,pristine,neutral,0.23,0.75,0.7,0.374,0.682,0.3,1.6,0.85,nano-scale,low,high
+MP0425,PS,0.05,fiber,pristine,negative,0.23,0.8099999999999999,0.7,0.374,0.682,0.6,1.6,0.85,nano-scale,low,high
+MP0426,PS,0.05,fiber,pristine,positive,0.23,0.85,0.7,0.374,0.682,0.8,1.6,0.85,nano-scale,low,high
+MP0427,PS,0.05,fiber,UV-aged,neutral,0.8300000000000001,0.83,0.7,0.674,0.762,0.3,1.6,0.85,nano-scale,high,high
+MP0428,PS,0.05,fiber,UV-aged,negative,0.8300000000000001,0.89,0.7,0.674,0.762,0.6,1.6,0.85,nano-scale,high,high
+MP0429,PS,0.05,fiber,UV-aged,positive,0.8300000000000001,0.9299999999999999,0.7,0.674,0.762,0.8,1.6,0.85,nano-scale,high,high
+MP0430,PS,0.05,fiber,oxidized,neutral,1.0,0.85,0.7,0.824,0.782,0.3,1.6,0.85,nano-scale,high,high
+MP0431,PS,0.05,fiber,oxidized,negative,1.0,0.91,0.7,0.824,0.782,0.6,1.6,0.85,nano-scale,high,high
+MP0432,PS,0.05,fiber,oxidized,positive,1.0,0.95,0.7,0.824,0.782,0.8,1.6,0.85,nano-scale,high,high
+MP0433,PS,0.1,sphere,pristine,neutral,0.23,0.72,0.7,0.274,0.662,0.3,1.0,0.3,nano-scale,low,high
+MP0434,PS,0.1,sphere,pristine,negative,0.23,0.7799999999999999,0.7,0.274,0.662,0.6,1.0,0.3,nano-scale,low,high
+MP0435,PS,0.1,sphere,pristine,positive,0.23,0.82,0.7,0.274,0.662,0.8,1.0,0.3,nano-scale,low,high
+MP0436,PS,0.1,sphere,UV-aged,neutral,0.8300000000000001,0.7999999999999999,0.7,0.5740000000000001,0.742,0.3,1.0,0.3,nano-scale,high,high
+MP0437,PS,0.1,sphere,UV-aged,negative,0.8300000000000001,0.86,0.7,0.5740000000000001,0.742,0.6,1.0,0.3,nano-scale,high,high
+MP0438,PS,0.1,sphere,UV-aged,positive,0.8300000000000001,0.8999999999999999,0.7,0.5740000000000001,0.742,0.8,1.0,0.3,nano-scale,high,high
+MP0439,PS,0.1,sphere,oxidized,neutral,1.0,0.82,0.7,0.724,0.762,0.3,1.0,0.3,nano-scale,high,high
+MP0440,PS,0.1,sphere,oxidized,negative,1.0,0.88,0.7,0.724,0.762,0.6,1.0,0.3,nano-scale,high,high
+MP0441,PS,0.1,sphere,oxidized,positive,1.0,0.9199999999999999,0.7,0.724,0.762,0.8,1.0,0.3,nano-scale,high,high
+MP0442,PS,0.1,fragment,pristine,neutral,0.23,0.76,0.7,0.35400000000000004,0.6920000000000001,0.3,1.25,0.6,nano-scale,low,high
+MP0443,PS,0.1,fragment,pristine,negative,0.23,0.82,0.7,0.35400000000000004,0.6920000000000001,0.6,1.25,0.6,nano-scale,low,high
+MP0444,PS,0.1,fragment,pristine,positive,0.23,0.86,0.7,0.35400000000000004,0.6920000000000001,0.8,1.25,0.6,nano-scale,low,high
+MP0445,PS,0.1,fragment,UV-aged,neutral,0.8300000000000001,0.84,0.7,0.654,0.772,0.3,1.25,0.6,nano-scale,high,high
+MP0446,PS,0.1,fragment,UV-aged,negative,0.8300000000000001,0.9,0.7,0.654,0.772,0.6,1.25,0.6,nano-scale,high,high
+MP0447,PS,0.1,fragment,UV-aged,positive,0.8300000000000001,0.94,0.7,0.654,0.772,0.8,1.25,0.6,nano-scale,high,high
+MP0448,PS,0.1,fragment,oxidized,neutral,1.0,0.86,0.7,0.8039999999999999,0.792,0.3,1.25,0.6,nano-scale,high,high
+MP0449,PS,0.1,fragment,oxidized,negative,1.0,0.92,0.7,0.8039999999999999,0.792,0.6,1.25,0.6,nano-scale,high,high
+MP0450,PS,0.1,fragment,oxidized,positive,1.0,0.96,0.7,0.8039999999999999,0.792,0.8,1.25,0.6,nano-scale,high,high
+MP0451,PS,0.1,fiber,pristine,neutral,0.23,0.75,0.7,0.374,0.682,0.3,1.6,0.85,nano-scale,low,high
+MP0452,PS,0.1,fiber,pristine,negative,0.23,0.8099999999999999,0.7,0.374,0.682,0.6,1.6,0.85,nano-scale,low,high
+MP0453,PS,0.1,fiber,pristine,positive,0.23,0.85,0.7,0.374,0.682,0.8,1.6,0.85,nano-scale,low,high
+MP0454,PS,0.1,fiber,UV-aged,neutral,0.8300000000000001,0.83,0.7,0.674,0.762,0.3,1.6,0.85,nano-scale,high,high
+MP0455,PS,0.1,fiber,UV-aged,negative,0.8300000000000001,0.89,0.7,0.674,0.762,0.6,1.6,0.85,nano-scale,high,high
+MP0456,PS,0.1,fiber,UV-aged,positive,0.8300000000000001,0.9299999999999999,0.7,0.674,0.762,0.8,1.6,0.85,nano-scale,high,high
+MP0457,PS,0.1,fiber,oxidized,neutral,1.0,0.85,0.7,0.824,0.782,0.3,1.6,0.85,nano-scale,high,high
+MP0458,PS,0.1,fiber,oxidized,negative,1.0,0.91,0.7,0.824,0.782,0.6,1.6,0.85,nano-scale,high,high
+MP0459,PS,0.1,fiber,oxidized,positive,1.0,0.95,0.7,0.824,0.782,0.8,1.6,0.85,nano-scale,high,high
+MP0460,PS,1.0,sphere,pristine,neutral,0.22,0.6799999999999999,0.7,0.266,0.658,0.3,1.0,0.3,submicron-to-small,low,high
+MP0461,PS,1.0,sphere,pristine,negative,0.22,0.7399999999999999,0.7,0.266,0.658,0.6,1.0,0.3,submicron-to-small,low,high
+MP0462,PS,1.0,sphere,pristine,positive,0.22,0.7799999999999999,0.7,0.266,0.658,0.8,1.0,0.3,submicron-to-small,low,high
+MP0463,PS,1.0,sphere,UV-aged,neutral,0.8200000000000001,0.7599999999999999,0.7,0.5660000000000001,0.738,0.3,1.0,0.3,submicron-to-small,high,high
+MP0464,PS,1.0,sphere,UV-aged,negative,0.8200000000000001,0.82,0.7,0.5660000000000001,0.738,0.6,1.0,0.3,submicron-to-small,high,high
+MP0465,PS,1.0,sphere,UV-aged,positive,0.8200000000000001,0.8599999999999999,0.7,0.5660000000000001,0.738,0.8,1.0,0.3,submicron-to-small,high,high
+MP0466,PS,1.0,sphere,oxidized,neutral,1.0,0.7799999999999999,0.7,0.716,0.758,0.3,1.0,0.3,submicron-to-small,high,high
+MP0467,PS,1.0,sphere,oxidized,negative,1.0,0.84,0.7,0.716,0.758,0.6,1.0,0.3,submicron-to-small,high,high
+MP0468,PS,1.0,sphere,oxidized,positive,1.0,0.8799999999999999,0.7,0.716,0.758,0.8,1.0,0.3,submicron-to-small,high,high
+MP0469,PS,1.0,fragment,pristine,neutral,0.22,0.72,0.7,0.34600000000000003,0.6880000000000001,0.3,1.25,0.6,submicron-to-small,low,high
+MP0470,PS,1.0,fragment,pristine,negative,0.22,0.7799999999999999,0.7,0.34600000000000003,0.6880000000000001,0.6,1.25,0.6,submicron-to-small,low,high
+MP0471,PS,1.0,fragment,pristine,positive,0.22,0.82,0.7,0.34600000000000003,0.6880000000000001,0.8,1.25,0.6,submicron-to-small,low,high
+MP0472,PS,1.0,fragment,UV-aged,neutral,0.8200000000000001,0.7999999999999999,0.7,0.646,0.768,0.3,1.25,0.6,submicron-to-small,high,high
+MP0473,PS,1.0,fragment,UV-aged,negative,0.8200000000000001,0.86,0.7,0.646,0.768,0.6,1.25,0.6,submicron-to-small,high,high
+MP0474,PS,1.0,fragment,UV-aged,positive,0.8200000000000001,0.8999999999999999,0.7,0.646,0.768,0.8,1.25,0.6,submicron-to-small,high,high
+MP0475,PS,1.0,fragment,oxidized,neutral,1.0,0.82,0.7,0.7959999999999999,0.788,0.3,1.25,0.6,submicron-to-small,high,high
+MP0476,PS,1.0,fragment,oxidized,negative,1.0,0.88,0.7,0.7959999999999999,0.788,0.6,1.25,0.6,submicron-to-small,high,high
+MP0477,PS,1.0,fragment,oxidized,positive,1.0,0.9199999999999999,0.7,0.7959999999999999,0.788,0.8,1.25,0.6,submicron-to-small,high,high
+MP0478,PS,1.0,fiber,pristine,neutral,0.22,0.71,0.7,0.366,0.678,0.3,1.6,0.85,submicron-to-small,low,high
+MP0479,PS,1.0,fiber,pristine,negative,0.22,0.7699999999999999,0.7,0.366,0.678,0.6,1.6,0.85,submicron-to-small,low,high
+MP0480,PS,1.0,fiber,pristine,positive,0.22,0.8099999999999999,0.7,0.366,0.678,0.8,1.6,0.85,submicron-to-small,low,high
+MP0481,PS,1.0,fiber,UV-aged,neutral,0.8200000000000001,0.7899999999999999,0.7,0.666,0.758,0.3,1.6,0.85,submicron-to-small,high,high
+MP0482,PS,1.0,fiber,UV-aged,negative,0.8200000000000001,0.85,0.7,0.666,0.758,0.6,1.6,0.85,submicron-to-small,high,high
+MP0483,PS,1.0,fiber,UV-aged,positive,0.8200000000000001,0.8899999999999999,0.7,0.666,0.758,0.8,1.6,0.85,submicron-to-small,high,high
+MP0484,PS,1.0,fiber,oxidized,neutral,1.0,0.8099999999999999,0.7,0.816,0.778,0.3,1.6,0.85,submicron-to-small,high,high
+MP0485,PS,1.0,fiber,oxidized,negative,1.0,0.87,0.7,0.816,0.778,0.6,1.6,0.85,submicron-to-small,high,high
+MP0486,PS,1.0,fiber,oxidized,positive,1.0,0.9099999999999999,0.7,0.816,0.778,0.8,1.6,0.85,submicron-to-small,high,high
+MP0487,PS,5.0,sphere,pristine,neutral,0.21000000000000002,0.64,0.7,0.258,0.654,0.3,1.0,0.3,small microplastic,low,moderate
+MP0488,PS,5.0,sphere,pristine,negative,0.21000000000000002,0.7,0.7,0.258,0.654,0.6,1.0,0.3,small microplastic,low,high
+MP0489,PS,5.0,sphere,pristine,positive,0.21000000000000002,0.74,0.7,0.258,0.654,0.8,1.0,0.3,small microplastic,low,high
+MP0490,PS,5.0,sphere,UV-aged,neutral,0.81,0.72,0.7,0.558,0.734,0.3,1.0,0.3,small microplastic,high,high
+MP0491,PS,5.0,sphere,UV-aged,negative,0.81,0.78,0.7,0.558,0.734,0.6,1.0,0.3,small microplastic,high,high
+MP0492,PS,5.0,sphere,UV-aged,positive,0.81,0.82,0.7,0.558,0.734,0.8,1.0,0.3,small microplastic,high,high
+MP0493,PS,5.0,sphere,oxidized,neutral,1.0,0.74,0.7,0.708,0.754,0.3,1.0,0.3,small microplastic,high,high
+MP0494,PS,5.0,sphere,oxidized,negative,1.0,0.8,0.7,0.708,0.754,0.6,1.0,0.3,small microplastic,high,high
+MP0495,PS,5.0,sphere,oxidized,positive,1.0,0.84,0.7,0.708,0.754,0.8,1.0,0.3,small microplastic,high,high
+MP0496,PS,5.0,fragment,pristine,neutral,0.21000000000000002,0.68,0.7,0.338,0.684,0.3,1.25,0.6,small microplastic,low,high
+MP0497,PS,5.0,fragment,pristine,negative,0.21000000000000002,0.74,0.7,0.338,0.684,0.6,1.25,0.6,small microplastic,low,high
+MP0498,PS,5.0,fragment,pristine,positive,0.21000000000000002,0.78,0.7,0.338,0.684,0.8,1.25,0.6,small microplastic,low,high
+MP0499,PS,5.0,fragment,UV-aged,neutral,0.81,0.76,0.7,0.638,0.764,0.3,1.25,0.6,small microplastic,high,high
+MP0500,PS,5.0,fragment,UV-aged,negative,0.81,0.8200000000000001,0.7,0.638,0.764,0.6,1.25,0.6,small microplastic,high,high
+MP0501,PS,5.0,fragment,UV-aged,positive,0.81,0.86,0.7,0.638,0.764,0.8,1.25,0.6,small microplastic,high,high
+MP0502,PS,5.0,fragment,oxidized,neutral,1.0,0.78,0.7,0.7879999999999999,0.784,0.3,1.25,0.6,small microplastic,high,high
+MP0503,PS,5.0,fragment,oxidized,negative,1.0,0.8400000000000001,0.7,0.7879999999999999,0.784,0.6,1.25,0.6,small microplastic,high,high
+MP0504,PS,5.0,fragment,oxidized,positive,1.0,0.88,0.7,0.7879999999999999,0.784,0.8,1.25,0.6,small microplastic,high,high
+MP0505,PS,5.0,fiber,pristine,neutral,0.21000000000000002,0.67,0.7,0.358,0.674,0.3,1.6,0.85,small microplastic,low,high
+MP0506,PS,5.0,fiber,pristine,negative,0.21000000000000002,0.73,0.7,0.358,0.674,0.6,1.6,0.85,small microplastic,low,high
+MP0507,PS,5.0,fiber,pristine,positive,0.21000000000000002,0.77,0.7,0.358,0.674,0.8,1.6,0.85,small microplastic,low,high
+MP0508,PS,5.0,fiber,UV-aged,neutral,0.81,0.75,0.7,0.658,0.754,0.3,1.6,0.85,small microplastic,high,high
+MP0509,PS,5.0,fiber,UV-aged,negative,0.81,0.81,0.7,0.658,0.754,0.6,1.6,0.85,small microplastic,high,high
+MP0510,PS,5.0,fiber,UV-aged,positive,0.81,0.85,0.7,0.658,0.754,0.8,1.6,0.85,small microplastic,high,high
+MP0511,PS,5.0,fiber,oxidized,neutral,1.0,0.77,0.7,0.8079999999999999,0.774,0.3,1.6,0.85,small microplastic,high,high
+MP0512,PS,5.0,fiber,oxidized,negative,1.0,0.8300000000000001,0.7,0.8079999999999999,0.774,0.6,1.6,0.85,small microplastic,high,high
+MP0513,PS,5.0,fiber,oxidized,positive,1.0,0.87,0.7,0.8079999999999999,0.774,0.8,1.6,0.85,small microplastic,high,high
+MP0514,PS,10.0,sphere,pristine,neutral,0.2,0.6,0.7,0.25,0.65,0.3,1.0,0.3,larger microplastic,low,moderate
+MP0515,PS,10.0,sphere,pristine,negative,0.2,0.6599999999999999,0.7,0.25,0.65,0.6,1.0,0.3,larger microplastic,low,high
+MP0516,PS,10.0,sphere,pristine,positive,0.2,0.7,0.7,0.25,0.65,0.8,1.0,0.3,larger microplastic,low,high
+MP0517,PS,10.0,sphere,UV-aged,neutral,0.8,0.6799999999999999,0.7,0.55,0.73,0.3,1.0,0.3,larger microplastic,high,high
+MP0518,PS,10.0,sphere,UV-aged,negative,0.8,0.74,0.7,0.55,0.73,0.6,1.0,0.3,larger microplastic,high,high
+MP0519,PS,10.0,sphere,UV-aged,positive,0.8,0.7799999999999999,0.7,0.55,0.73,0.8,1.0,0.3,larger microplastic,high,high
+MP0520,PS,10.0,sphere,oxidized,neutral,1.0,0.7,0.7,0.7,0.75,0.3,1.0,0.3,larger microplastic,high,high
+MP0521,PS,10.0,sphere,oxidized,negative,1.0,0.76,0.7,0.7,0.75,0.6,1.0,0.3,larger microplastic,high,high
+MP0522,PS,10.0,sphere,oxidized,positive,1.0,0.7999999999999999,0.7,0.7,0.75,0.8,1.0,0.3,larger microplastic,high,high
+MP0523,PS,10.0,fragment,pristine,neutral,0.2,0.64,0.7,0.33,0.68,0.3,1.25,0.6,larger microplastic,low,moderate
+MP0524,PS,10.0,fragment,pristine,negative,0.2,0.7,0.7,0.33,0.68,0.6,1.25,0.6,larger microplastic,low,high
+MP0525,PS,10.0,fragment,pristine,positive,0.2,0.74,0.7,0.33,0.68,0.8,1.25,0.6,larger microplastic,low,high
+MP0526,PS,10.0,fragment,UV-aged,neutral,0.8,0.72,0.7,0.63,0.76,0.3,1.25,0.6,larger microplastic,high,high
+MP0527,PS,10.0,fragment,UV-aged,negative,0.8,0.78,0.7,0.63,0.76,0.6,1.25,0.6,larger microplastic,high,high
+MP0528,PS,10.0,fragment,UV-aged,positive,0.8,0.82,0.7,0.63,0.76,0.8,1.25,0.6,larger microplastic,high,high
+MP0529,PS,10.0,fragment,oxidized,neutral,1.0,0.74,0.7,0.7799999999999999,0.78,0.3,1.25,0.6,larger microplastic,high,high
+MP0530,PS,10.0,fragment,oxidized,negative,1.0,0.8,0.7,0.7799999999999999,0.78,0.6,1.25,0.6,larger microplastic,high,high
+MP0531,PS,10.0,fragment,oxidized,positive,1.0,0.84,0.7,0.7799999999999999,0.78,0.8,1.25,0.6,larger microplastic,high,high
+MP0532,PS,10.0,fiber,pristine,neutral,0.2,0.63,0.7,0.35,0.67,0.3,1.6,0.85,larger microplastic,low,moderate
+MP0533,PS,10.0,fiber,pristine,negative,0.2,0.69,0.7,0.35,0.67,0.6,1.6,0.85,larger microplastic,low,high
+MP0534,PS,10.0,fiber,pristine,positive,0.2,0.73,0.7,0.35,0.67,0.8,1.6,0.85,larger microplastic,low,high
+MP0535,PS,10.0,fiber,UV-aged,neutral,0.8,0.71,0.7,0.65,0.75,0.3,1.6,0.85,larger microplastic,high,high
+MP0536,PS,10.0,fiber,UV-aged,negative,0.8,0.77,0.7,0.65,0.75,0.6,1.6,0.85,larger microplastic,high,high
+MP0537,PS,10.0,fiber,UV-aged,positive,0.8,0.8099999999999999,0.7,0.65,0.75,0.8,1.6,0.85,larger microplastic,high,high
+MP0538,PS,10.0,fiber,oxidized,neutral,1.0,0.73,0.7,0.7999999999999999,0.77,0.3,1.6,0.85,larger microplastic,high,high
+MP0539,PS,10.0,fiber,oxidized,negative,1.0,0.79,0.7,0.7999999999999999,0.77,0.6,1.6,0.85,larger microplastic,high,high
+MP0540,PS,10.0,fiber,oxidized,positive,1.0,0.83,0.7,0.7999999999999999,0.77,0.8,1.6,0.85,larger microplastic,high,high
+MP0541,PVC,0.05,sphere,pristine,neutral,0.23,0.67,0.6,0.274,0.712,0.3,1.0,0.3,nano-scale,low,high
+MP0542,PVC,0.05,sphere,pristine,negative,0.23,0.7300000000000001,0.6,0.274,0.712,0.6,1.0,0.3,nano-scale,low,high
+MP0543,PVC,0.05,sphere,pristine,positive,0.23,0.77,0.6,0.274,0.712,0.8,1.0,0.3,nano-scale,low,high
+MP0544,PVC,0.05,sphere,UV-aged,neutral,0.8300000000000001,0.75,0.6,0.5740000000000001,0.7919999999999999,0.3,1.0,0.3,nano-scale,high,high
+MP0545,PVC,0.05,sphere,UV-aged,negative,0.8300000000000001,0.8099999999999999,0.6,0.5740000000000001,0.7919999999999999,0.6,1.0,0.3,nano-scale,high,high
+MP0546,PVC,0.05,sphere,UV-aged,positive,0.8300000000000001,0.85,0.6,0.5740000000000001,0.7919999999999999,0.8,1.0,0.3,nano-scale,high,high
+MP0547,PVC,0.05,sphere,oxidized,neutral,1.0,0.77,0.6,0.724,0.8119999999999999,0.3,1.0,0.3,nano-scale,high,high
+MP0548,PVC,0.05,sphere,oxidized,negative,1.0,0.83,0.6,0.724,0.8119999999999999,0.6,1.0,0.3,nano-scale,high,high
+MP0549,PVC,0.05,sphere,oxidized,positive,1.0,0.87,0.6,0.724,0.8119999999999999,0.8,1.0,0.3,nano-scale,high,high
+MP0550,PVC,0.05,fragment,pristine,neutral,0.23,0.7100000000000001,0.6,0.35400000000000004,0.742,0.3,1.25,0.6,nano-scale,low,high
+MP0551,PVC,0.05,fragment,pristine,negative,0.23,0.7700000000000001,0.6,0.35400000000000004,0.742,0.6,1.25,0.6,nano-scale,low,high
+MP0552,PVC,0.05,fragment,pristine,positive,0.23,0.81,0.6,0.35400000000000004,0.742,0.8,1.25,0.6,nano-scale,low,high
+MP0553,PVC,0.05,fragment,UV-aged,neutral,0.8300000000000001,0.79,0.6,0.654,0.822,0.3,1.25,0.6,nano-scale,high,high
+MP0554,PVC,0.05,fragment,UV-aged,negative,0.8300000000000001,0.85,0.6,0.654,0.822,0.6,1.25,0.6,nano-scale,high,high
+MP0555,PVC,0.05,fragment,UV-aged,positive,0.8300000000000001,0.89,0.6,0.654,0.822,0.8,1.25,0.6,nano-scale,high,high
+MP0556,PVC,0.05,fragment,oxidized,neutral,1.0,0.81,0.6,0.8039999999999999,0.842,0.3,1.25,0.6,nano-scale,high,high
+MP0557,PVC,0.05,fragment,oxidized,negative,1.0,0.87,0.6,0.8039999999999999,0.842,0.6,1.25,0.6,nano-scale,high,high
+MP0558,PVC,0.05,fragment,oxidized,positive,1.0,0.91,0.6,0.8039999999999999,0.842,0.8,1.25,0.6,nano-scale,high,high
+MP0559,PVC,0.05,fiber,pristine,neutral,0.23,0.7000000000000001,0.6,0.374,0.732,0.3,1.6,0.85,nano-scale,low,high
+MP0560,PVC,0.05,fiber,pristine,negative,0.23,0.7600000000000001,0.6,0.374,0.732,0.6,1.6,0.85,nano-scale,low,high
+MP0561,PVC,0.05,fiber,pristine,positive,0.23,0.8,0.6,0.374,0.732,0.8,1.6,0.85,nano-scale,low,high
+MP0562,PVC,0.05,fiber,UV-aged,neutral,0.8300000000000001,0.78,0.6,0.674,0.8119999999999999,0.3,1.6,0.85,nano-scale,high,high
+MP0563,PVC,0.05,fiber,UV-aged,negative,0.8300000000000001,0.84,0.6,0.674,0.8119999999999999,0.6,1.6,0.85,nano-scale,high,high
+MP0564,PVC,0.05,fiber,UV-aged,positive,0.8300000000000001,0.88,0.6,0.674,0.8119999999999999,0.8,1.6,0.85,nano-scale,high,high
+MP0565,PVC,0.05,fiber,oxidized,neutral,1.0,0.8,0.6,0.824,0.832,0.3,1.6,0.85,nano-scale,high,high
+MP0566,PVC,0.05,fiber,oxidized,negative,1.0,0.86,0.6,0.824,0.832,0.6,1.6,0.85,nano-scale,high,high
+MP0567,PVC,0.05,fiber,oxidized,positive,1.0,0.9,0.6,0.824,0.832,0.8,1.6,0.85,nano-scale,high,high
+MP0568,PVC,0.1,sphere,pristine,neutral,0.23,0.67,0.6,0.274,0.712,0.3,1.0,0.3,nano-scale,low,high
+MP0569,PVC,0.1,sphere,pristine,negative,0.23,0.7300000000000001,0.6,0.274,0.712,0.6,1.0,0.3,nano-scale,low,high
+MP0570,PVC,0.1,sphere,pristine,positive,0.23,0.77,0.6,0.274,0.712,0.8,1.0,0.3,nano-scale,low,high
+MP0571,PVC,0.1,sphere,UV-aged,neutral,0.8300000000000001,0.75,0.6,0.5740000000000001,0.7919999999999999,0.3,1.0,0.3,nano-scale,high,high
+MP0572,PVC,0.1,sphere,UV-aged,negative,0.8300000000000001,0.8099999999999999,0.6,0.5740000000000001,0.7919999999999999,0.6,1.0,0.3,nano-scale,high,high
+MP0573,PVC,0.1,sphere,UV-aged,positive,0.8300000000000001,0.85,0.6,0.5740000000000001,0.7919999999999999,0.8,1.0,0.3,nano-scale,high,high
+MP0574,PVC,0.1,sphere,oxidized,neutral,1.0,0.77,0.6,0.724,0.8119999999999999,0.3,1.0,0.3,nano-scale,high,high
+MP0575,PVC,0.1,sphere,oxidized,negative,1.0,0.83,0.6,0.724,0.8119999999999999,0.6,1.0,0.3,nano-scale,high,high
+MP0576,PVC,0.1,sphere,oxidized,positive,1.0,0.87,0.6,0.724,0.8119999999999999,0.8,1.0,0.3,nano-scale,high,high
+MP0577,PVC,0.1,fragment,pristine,neutral,0.23,0.7100000000000001,0.6,0.35400000000000004,0.742,0.3,1.25,0.6,nano-scale,low,high
+MP0578,PVC,0.1,fragment,pristine,negative,0.23,0.7700000000000001,0.6,0.35400000000000004,0.742,0.6,1.25,0.6,nano-scale,low,high
+MP0579,PVC,0.1,fragment,pristine,positive,0.23,0.81,0.6,0.35400000000000004,0.742,0.8,1.25,0.6,nano-scale,low,high
+MP0580,PVC,0.1,fragment,UV-aged,neutral,0.8300000000000001,0.79,0.6,0.654,0.822,0.3,1.25,0.6,nano-scale,high,high
+MP0581,PVC,0.1,fragment,UV-aged,negative,0.8300000000000001,0.85,0.6,0.654,0.822,0.6,1.25,0.6,nano-scale,high,high
+MP0582,PVC,0.1,fragment,UV-aged,positive,0.8300000000000001,0.89,0.6,0.654,0.822,0.8,1.25,0.6,nano-scale,high,high
+MP0583,PVC,0.1,fragment,oxidized,neutral,1.0,0.81,0.6,0.8039999999999999,0.842,0.3,1.25,0.6,nano-scale,high,high
+MP0584,PVC,0.1,fragment,oxidized,negative,1.0,0.87,0.6,0.8039999999999999,0.842,0.6,1.25,0.6,nano-scale,high,high
+MP0585,PVC,0.1,fragment,oxidized,positive,1.0,0.91,0.6,0.8039999999999999,0.842,0.8,1.25,0.6,nano-scale,high,high
+MP0586,PVC,0.1,fiber,pristine,neutral,0.23,0.7000000000000001,0.6,0.374,0.732,0.3,1.6,0.85,nano-scale,low,high
+MP0587,PVC,0.1,fiber,pristine,negative,0.23,0.7600000000000001,0.6,0.374,0.732,0.6,1.6,0.85,nano-scale,low,high
+MP0588,PVC,0.1,fiber,pristine,positive,0.23,0.8,0.6,0.374,0.732,0.8,1.6,0.85,nano-scale,low,high
+MP0589,PVC,0.1,fiber,UV-aged,neutral,0.8300000000000001,0.78,0.6,0.674,0.8119999999999999,0.3,1.6,0.85,nano-scale,high,high
+MP0590,PVC,0.1,fiber,UV-aged,negative,0.8300000000000001,0.84,0.6,0.674,0.8119999999999999,0.6,1.6,0.85,nano-scale,high,high
+MP0591,PVC,0.1,fiber,UV-aged,positive,0.8300000000000001,0.88,0.6,0.674,0.8119999999999999,0.8,1.6,0.85,nano-scale,high,high
+MP0592,PVC,0.1,fiber,oxidized,neutral,1.0,0.8,0.6,0.824,0.832,0.3,1.6,0.85,nano-scale,high,high
+MP0593,PVC,0.1,fiber,oxidized,negative,1.0,0.86,0.6,0.824,0.832,0.6,1.6,0.85,nano-scale,high,high
+MP0594,PVC,0.1,fiber,oxidized,positive,1.0,0.9,0.6,0.824,0.832,0.8,1.6,0.85,nano-scale,high,high
+MP0595,PVC,1.0,sphere,pristine,neutral,0.22,0.63,0.6,0.266,0.708,0.3,1.0,0.3,submicron-to-small,low,moderate
+MP0596,PVC,1.0,sphere,pristine,negative,0.22,0.6900000000000001,0.6,0.266,0.708,0.6,1.0,0.3,submicron-to-small,low,high
+MP0597,PVC,1.0,sphere,pristine,positive,0.22,0.73,0.6,0.266,0.708,0.8,1.0,0.3,submicron-to-small,low,high
+MP0598,PVC,1.0,sphere,UV-aged,neutral,0.8200000000000001,0.71,0.6,0.5660000000000001,0.7879999999999999,0.3,1.0,0.3,submicron-to-small,high,high
+MP0599,PVC,1.0,sphere,UV-aged,negative,0.8200000000000001,0.7699999999999999,0.6,0.5660000000000001,0.7879999999999999,0.6,1.0,0.3,submicron-to-small,high,high
+MP0600,PVC,1.0,sphere,UV-aged,positive,0.8200000000000001,0.8099999999999999,0.6,0.5660000000000001,0.7879999999999999,0.8,1.0,0.3,submicron-to-small,high,high
+MP0601,PVC,1.0,sphere,oxidized,neutral,1.0,0.73,0.6,0.716,0.8079999999999999,0.3,1.0,0.3,submicron-to-small,high,high
+MP0602,PVC,1.0,sphere,oxidized,negative,1.0,0.7899999999999999,0.6,0.716,0.8079999999999999,0.6,1.0,0.3,submicron-to-small,high,high
+MP0603,PVC,1.0,sphere,oxidized,positive,1.0,0.83,0.6,0.716,0.8079999999999999,0.8,1.0,0.3,submicron-to-small,high,high
+MP0604,PVC,1.0,fragment,pristine,neutral,0.22,0.67,0.6,0.34600000000000003,0.738,0.3,1.25,0.6,submicron-to-small,low,high
+MP0605,PVC,1.0,fragment,pristine,negative,0.22,0.7300000000000001,0.6,0.34600000000000003,0.738,0.6,1.25,0.6,submicron-to-small,low,high
+MP0606,PVC,1.0,fragment,pristine,positive,0.22,0.77,0.6,0.34600000000000003,0.738,0.8,1.25,0.6,submicron-to-small,low,high
+MP0607,PVC,1.0,fragment,UV-aged,neutral,0.8200000000000001,0.75,0.6,0.646,0.818,0.3,1.25,0.6,submicron-to-small,high,high
+MP0608,PVC,1.0,fragment,UV-aged,negative,0.8200000000000001,0.8099999999999999,0.6,0.646,0.818,0.6,1.25,0.6,submicron-to-small,high,high
+MP0609,PVC,1.0,fragment,UV-aged,positive,0.8200000000000001,0.85,0.6,0.646,0.818,0.8,1.25,0.6,submicron-to-small,high,high
+MP0610,PVC,1.0,fragment,oxidized,neutral,1.0,0.77,0.6,0.7959999999999999,0.838,0.3,1.25,0.6,submicron-to-small,high,high
+MP0611,PVC,1.0,fragment,oxidized,negative,1.0,0.83,0.6,0.7959999999999999,0.838,0.6,1.25,0.6,submicron-to-small,high,high
+MP0612,PVC,1.0,fragment,oxidized,positive,1.0,0.87,0.6,0.7959999999999999,0.838,0.8,1.25,0.6,submicron-to-small,high,high
+MP0613,PVC,1.0,fiber,pristine,neutral,0.22,0.66,0.6,0.366,0.728,0.3,1.6,0.85,submicron-to-small,low,high
+MP0614,PVC,1.0,fiber,pristine,negative,0.22,0.7200000000000001,0.6,0.366,0.728,0.6,1.6,0.85,submicron-to-small,low,high
+MP0615,PVC,1.0,fiber,pristine,positive,0.22,0.76,0.6,0.366,0.728,0.8,1.6,0.85,submicron-to-small,low,high
+MP0616,PVC,1.0,fiber,UV-aged,neutral,0.8200000000000001,0.74,0.6,0.666,0.8079999999999999,0.3,1.6,0.85,submicron-to-small,high,high
+MP0617,PVC,1.0,fiber,UV-aged,negative,0.8200000000000001,0.7999999999999999,0.6,0.666,0.8079999999999999,0.6,1.6,0.85,submicron-to-small,high,high
+MP0618,PVC,1.0,fiber,UV-aged,positive,0.8200000000000001,0.84,0.6,0.666,0.8079999999999999,0.8,1.6,0.85,submicron-to-small,high,high
+MP0619,PVC,1.0,fiber,oxidized,neutral,1.0,0.76,0.6,0.816,0.828,0.3,1.6,0.85,submicron-to-small,high,high
+MP0620,PVC,1.0,fiber,oxidized,negative,1.0,0.82,0.6,0.816,0.828,0.6,1.6,0.85,submicron-to-small,high,high
+MP0621,PVC,1.0,fiber,oxidized,positive,1.0,0.86,0.6,0.816,0.828,0.8,1.6,0.85,submicron-to-small,high,high
+MP0622,PVC,5.0,sphere,pristine,neutral,0.21000000000000002,0.5900000000000001,0.6,0.258,0.704,0.3,1.0,0.3,small microplastic,low,moderate
+MP0623,PVC,5.0,sphere,pristine,negative,0.21000000000000002,0.6500000000000001,0.6,0.258,0.704,0.6,1.0,0.3,small microplastic,low,high
+MP0624,PVC,5.0,sphere,pristine,positive,0.21000000000000002,0.6900000000000001,0.6,0.258,0.704,0.8,1.0,0.3,small microplastic,low,high
+MP0625,PVC,5.0,sphere,UV-aged,neutral,0.81,0.67,0.6,0.558,0.7839999999999999,0.3,1.0,0.3,small microplastic,high,high
+MP0626,PVC,5.0,sphere,UV-aged,negative,0.81,0.73,0.6,0.558,0.7839999999999999,0.6,1.0,0.3,small microplastic,high,high
+MP0627,PVC,5.0,sphere,UV-aged,positive,0.81,0.77,0.6,0.558,0.7839999999999999,0.8,1.0,0.3,small microplastic,high,high
+MP0628,PVC,5.0,sphere,oxidized,neutral,1.0,0.6900000000000001,0.6,0.708,0.8039999999999999,0.3,1.0,0.3,small microplastic,high,high
+MP0629,PVC,5.0,sphere,oxidized,negative,1.0,0.75,0.6,0.708,0.8039999999999999,0.6,1.0,0.3,small microplastic,high,high
+MP0630,PVC,5.0,sphere,oxidized,positive,1.0,0.79,0.6,0.708,0.8039999999999999,0.8,1.0,0.3,small microplastic,high,high
+MP0631,PVC,5.0,fragment,pristine,neutral,0.21000000000000002,0.6300000000000001,0.6,0.338,0.734,0.3,1.25,0.6,small microplastic,low,moderate
+MP0632,PVC,5.0,fragment,pristine,negative,0.21000000000000002,0.6900000000000002,0.6,0.338,0.734,0.6,1.25,0.6,small microplastic,low,high
+MP0633,PVC,5.0,fragment,pristine,positive,0.21000000000000002,0.7300000000000001,0.6,0.338,0.734,0.8,1.25,0.6,small microplastic,low,high
+MP0634,PVC,5.0,fragment,UV-aged,neutral,0.81,0.7100000000000001,0.6,0.638,0.814,0.3,1.25,0.6,small microplastic,high,high
+MP0635,PVC,5.0,fragment,UV-aged,negative,0.81,0.77,0.6,0.638,0.814,0.6,1.25,0.6,small microplastic,high,high
+MP0636,PVC,5.0,fragment,UV-aged,positive,0.81,0.81,0.6,0.638,0.814,0.8,1.25,0.6,small microplastic,high,high
+MP0637,PVC,5.0,fragment,oxidized,neutral,1.0,0.7300000000000001,0.6,0.7879999999999999,0.834,0.3,1.25,0.6,small microplastic,high,high
+MP0638,PVC,5.0,fragment,oxidized,negative,1.0,0.79,0.6,0.7879999999999999,0.834,0.6,1.25,0.6,small microplastic,high,high
+MP0639,PVC,5.0,fragment,oxidized,positive,1.0,0.8300000000000001,0.6,0.7879999999999999,0.834,0.8,1.25,0.6,small microplastic,high,high
+MP0640,PVC,5.0,fiber,pristine,neutral,0.21000000000000002,0.6200000000000001,0.6,0.358,0.724,0.3,1.6,0.85,small microplastic,low,moderate
+MP0641,PVC,5.0,fiber,pristine,negative,0.21000000000000002,0.6800000000000002,0.6,0.358,0.724,0.6,1.6,0.85,small microplastic,low,high
+MP0642,PVC,5.0,fiber,pristine,positive,0.21000000000000002,0.7200000000000001,0.6,0.358,0.724,0.8,1.6,0.85,small microplastic,low,high
+MP0643,PVC,5.0,fiber,UV-aged,neutral,0.81,0.7000000000000001,0.6,0.658,0.8039999999999999,0.3,1.6,0.85,small microplastic,high,high
+MP0644,PVC,5.0,fiber,UV-aged,negative,0.81,0.76,0.6,0.658,0.8039999999999999,0.6,1.6,0.85,small microplastic,high,high
+MP0645,PVC,5.0,fiber,UV-aged,positive,0.81,0.8,0.6,0.658,0.8039999999999999,0.8,1.6,0.85,small microplastic,high,high
+MP0646,PVC,5.0,fiber,oxidized,neutral,1.0,0.7200000000000001,0.6,0.8079999999999999,0.824,0.3,1.6,0.85,small microplastic,high,high
+MP0647,PVC,5.0,fiber,oxidized,negative,1.0,0.78,0.6,0.8079999999999999,0.824,0.6,1.6,0.85,small microplastic,high,high
+MP0648,PVC,5.0,fiber,oxidized,positive,1.0,0.8200000000000001,0.6,0.8079999999999999,0.824,0.8,1.6,0.85,small microplastic,high,high
+MP0649,PVC,10.0,sphere,pristine,neutral,0.2,0.55,0.6,0.25,0.7,0.3,1.0,0.3,larger microplastic,low,moderate
+MP0650,PVC,10.0,sphere,pristine,negative,0.2,0.6100000000000001,0.6,0.25,0.7,0.6,1.0,0.3,larger microplastic,low,moderate
+MP0651,PVC,10.0,sphere,pristine,positive,0.2,0.65,0.6,0.25,0.7,0.8,1.0,0.3,larger microplastic,low,moderate
+MP0652,PVC,10.0,sphere,UV-aged,neutral,0.8,0.63,0.6,0.55,0.7799999999999999,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0653,PVC,10.0,sphere,UV-aged,negative,0.8,0.69,0.6,0.55,0.7799999999999999,0.6,1.0,0.3,larger microplastic,high,high
+MP0654,PVC,10.0,sphere,UV-aged,positive,0.8,0.73,0.6,0.55,0.7799999999999999,0.8,1.0,0.3,larger microplastic,high,high
+MP0655,PVC,10.0,sphere,oxidized,neutral,1.0,0.65,0.6,0.7,0.7999999999999999,0.3,1.0,0.3,larger microplastic,high,moderate
+MP0656,PVC,10.0,sphere,oxidized,negative,1.0,0.71,0.6,0.7,0.7999999999999999,0.6,1.0,0.3,larger microplastic,high,high
+MP0657,PVC,10.0,sphere,oxidized,positive,1.0,0.75,0.6,0.7,0.7999999999999999,0.8,1.0,0.3,larger microplastic,high,high
+MP0658,PVC,10.0,fragment,pristine,neutral,0.2,0.5900000000000001,0.6,0.33,0.73,0.3,1.25,0.6,larger microplastic,low,moderate
+MP0659,PVC,10.0,fragment,pristine,negative,0.2,0.6500000000000001,0.6,0.33,0.73,0.6,1.25,0.6,larger microplastic,low,high
+MP0660,PVC,10.0,fragment,pristine,positive,0.2,0.6900000000000001,0.6,0.33,0.73,0.8,1.25,0.6,larger microplastic,low,high
+MP0661,PVC,10.0,fragment,UV-aged,neutral,0.8,0.67,0.6,0.63,0.8099999999999999,0.3,1.25,0.6,larger microplastic,high,high
+MP0662,PVC,10.0,fragment,UV-aged,negative,0.8,0.73,0.6,0.63,0.8099999999999999,0.6,1.25,0.6,larger microplastic,high,high
+MP0663,PVC,10.0,fragment,UV-aged,positive,0.8,0.77,0.6,0.63,0.8099999999999999,0.8,1.25,0.6,larger microplastic,high,high
+MP0664,PVC,10.0,fragment,oxidized,neutral,1.0,0.6900000000000001,0.6,0.7799999999999999,0.83,0.3,1.25,0.6,larger microplastic,high,high
+MP0665,PVC,10.0,fragment,oxidized,negative,1.0,0.75,0.6,0.7799999999999999,0.83,0.6,1.25,0.6,larger microplastic,high,high
+MP0666,PVC,10.0,fragment,oxidized,positive,1.0,0.79,0.6,0.7799999999999999,0.83,0.8,1.25,0.6,larger microplastic,high,high
+MP0667,PVC,10.0,fiber,pristine,neutral,0.2,0.5800000000000001,0.6,0.35,0.72,0.3,1.6,0.85,larger microplastic,low,moderate
+MP0668,PVC,10.0,fiber,pristine,negative,0.2,0.6400000000000001,0.6,0.35,0.72,0.6,1.6,0.85,larger microplastic,low,moderate
+MP0669,PVC,10.0,fiber,pristine,positive,0.2,0.68,0.6,0.35,0.72,0.8,1.6,0.85,larger microplastic,low,high
+MP0670,PVC,10.0,fiber,UV-aged,neutral,0.8,0.66,0.6,0.65,0.7999999999999999,0.3,1.6,0.85,larger microplastic,high,high
+MP0671,PVC,10.0,fiber,UV-aged,negative,0.8,0.72,0.6,0.65,0.7999999999999999,0.6,1.6,0.85,larger microplastic,high,high
+MP0672,PVC,10.0,fiber,UV-aged,positive,0.8,0.76,0.6,0.65,0.7999999999999999,0.8,1.6,0.85,larger microplastic,high,high
+MP0673,PVC,10.0,fiber,oxidized,neutral,1.0,0.68,0.6,0.7999999999999999,0.82,0.3,1.6,0.85,larger microplastic,high,high
+MP0674,PVC,10.0,fiber,oxidized,negative,1.0,0.74,0.6,0.7999999999999999,0.82,0.6,1.6,0.85,larger microplastic,high,high
+MP0675,PVC,10.0,fiber,oxidized,positive,1.0,0.78,0.6,0.7999999999999999,0.82,0.8,1.6,0.85,larger microplastic,high,high
